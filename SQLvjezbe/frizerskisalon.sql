@@ -1,26 +1,35 @@
---create database frizerskisalon;
---use frizerskisalon;
+--use  frizerskisalon;
 
-create table salon(
-	naziv varchar(50),
-	adresa varchar(100),
-	telefon varchar(100)
-);
-
-create table djelatnik(
+create table djelatnica(
+	sifra int not null primary key identity(1,1),
 	ime varchar(50),
 	prezime varchar(50),
 	oib char(11)
 );
 
-create table usluga(
-	cijena decimal(18,2),
-	naziv varchar(50),
-	trajanje int
+create table korisnik(
+	sifra int not null primary key identity(1,1),
+	duzinakose int not null,
+	usluga int,
+	spol int not null
 );
 
-create table korisnik(
-	ime varchar(50),
-	prezime varchar(50),
-	spol bit
+create table usluga(
+	sifra int not null primary key identity(1,1),
+	naziv varchar(50),
+	cijena decimal(18,2)
 );
+
+
+create table termin(
+	sifra int not null primary key identity(1,1),
+	datum datetime not null,
+	usluga int not null,
+	korisnik int not null,
+	djelatnica int
+);
+
+
+alter table termin add foreign key (usluga) references usluga (sifra);
+alter table termin add foreign key (djelatnica) references djelatnica (sifra);
+alter table termin add foreign key (korisnik) references korisnik (sifra);
