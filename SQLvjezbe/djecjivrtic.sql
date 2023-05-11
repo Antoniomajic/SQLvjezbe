@@ -1,28 +1,40 @@
---create database djecjivrtic;
---use djecjivrtic;
+use master;
 
-create table vrtic(
-	naziv varchar(50),
-	adresa varchar(100),
-	email varchar(100)
-);
+drop database if exists djecjivrtic;
+
+create database djecjivrtic;
+
+use djecjivrtic;
 
 create table djete(
-	ime varchar(50),
-	prezime varchar(50),
+	sifra int not null primary key identity(1,1),
+	ime varchar(50) not null,
+	prezime varchar(50) not null,
 	oib char(11),
-	godiste char(4)
+	skupina int
 );
 
-create table odgajatelj(
-	ime varchar(50),
-	prezime varchar(50),
+create table odgajateljica(
+	sifra int not null primary key identity(1,1),
+	ime varchar(50) not null,
+	prezime varchar(50) not null,
 	oib char(11),
-	strucnasprema varchar(100)
+	strucnasprema int
 );
 
 create table skupina(
-	maxpolaznika char(2),
+	sifra int not null primary key identity(1,1),
+	maxpolaznika int,
 	datumpocetka datetime,
-	prostorija char(2)
+	odgajateljica int,
+	djete int
 );
+
+create table strucnasprema(
+	sifra int not null primary key identity(1,1),
+	naziv varchar(200)
+);
+
+alter table odgajateljica add foreign key (strucnasprema) references strucnasprema (sifra);
+alter table djete add foreign key (skupina) references skupina (sifra);
+alter table skupina add foreign key (odgajateljica) references odgajateljica (sifra);
