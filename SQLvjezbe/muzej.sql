@@ -1,33 +1,43 @@
+--drop database if exists muzej;
+
 --create database muzej;
+
 --use muzej;
 
-create table muzej(
-	naziv varchar(50),
-	adresa varchar(100),
-	email varchar(100)
-);
+-- create database muzej;
 
-create table izlozba(
-	dvorana varchar(50),
-	naziv varchar(50),
-	datumpocetka datetime
-);
-
-create table eksponat(
-	naziv varchar(100),
-	sifra char(15),
-	opis varchar(1000)
-);
+-- use muzej;
 
 create table kustos(
-	ime varchar(50),
-	prezime varchar(50),
-	oib char(11)
+	sifra int not null primary key identity(1,1),
+	ime varchar(50) not null,
+	prezime varchar(50) not null,
+	email varchar(100)
 );
 
 create table sponzor(
-	ime varchar(50),
-	prezime varchar(50),
-	email varchar(100)
+	sifra int not null primary key identity(1,1),
+	ime varchar(50) not null,
+	prezime varchar(50) not null
 );
+
+create table djelo(
+	sifra int not null primary key identity(1,1),
+	naziv varchar(50) not null,
+	opis varchar(100),
+	izlozba int not null
+);
+
+create table izlozba(
+	sifra int not null primary key identity(1,1),
+	naziv varchar(100),
+	sponzor int not null,
+	kustos int not null,
+	djelo int not null
+);
+
+alter table djelo add foreign key (izlozba) references izlozba (sifra); 
+alter table izlozba add foreign key (sponzor) references sponzor (sifra);
+alter table izlozba add foreign key (kustos) references kustos (sifra);
+
 
