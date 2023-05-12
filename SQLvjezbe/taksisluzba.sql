@@ -1,32 +1,47 @@
+--drop database if exists taksisluzba;
+
 --create database taksisluzba;
 --use taksisluzba;
 
-create table tvrtka(
-	naziv varchar(50),
-	adresa varchar(100),
-	telefon varchar(20)
-);
-
 create table vozilo(
-	marka varchar(20),
-	godiste char(4),
-	operativan bit
+	id int not null primary key identity(1,1),
+	marka varchar(50) not null
 );
 
 create table vozac(
-	ime varchar(50),
-	prezime varchar(50),
-	telefon varchar(20),
+	id int not null primary key identity(1,1),
+	ime varchar(50) not null,
+	prezime varchar(50) not null,
+	oib char(11),
+	vozilo int
 );
 
 create table voznja(
-	cijena decimal(18,2),
-	trajanje int,
-	kilometraza decimal (4,2)
+	id int not null primary key identity(1,1),
+	vozac int not null
 );
 
 create table putnik(
-	oib char(11),
-	polaziste varchar(100),
-	destinacija varchar(100)
+	id int not null primary key identity(1,1),
+	ime varchar(50) not null,
+	prezime varchar(50) not null
 );
+
+create table voznja_putnik(
+	id int not null primary key identity(1,1),
+	putnik int not null,
+	voznja int not null,
+	trajanje int,
+	cijena decimal(18,2)
+);
+
+alter table vozac add foreign key (vozilo) references vozilo (id);
+alter table voznja_putnik add foreign key (putnik) references putnik (id);
+alter table voznja_putnik add foreign key (voznja) references voznja (id);
+alter table voznja add foreign key (vozac) references vozac (id);
+
+
+
+
+
+
