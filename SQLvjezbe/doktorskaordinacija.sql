@@ -1,28 +1,36 @@
---create database doktorskaordinacija;
-
---use doktorskaordinacija;
-
-create table ordinacija(
-	adresa varchar(100),
-	telefon varchar(50),
-	iban char(21)
-);
-
-create table doktor(
-	oib char(11),
-	licenca bit,
-	specijalizacija varchar(100)
-);
+use master;
+drop database if exists doktorskaordinacija;
+create database doktorskaordinacija;
+use doktorskaordinacija;
 
 create table pacijent(
-	oib char(11),
-	mbo char(9),
-	dopunsko bit
+	sifra int not null primary key identity(1,1),
+	ime varchar(50) not null,
+	prezime varchar(50) not null,
+	oib char(11)
 	);
 
-create table medicinskasestra(
-		oib char(11),
-		licenca bit,
-		kodnibroj char(2)
-	);
+create table terapija(
+	sifra int not null primary key identity(1,1),
+	naziv varchar(100),
+	opis varchar(300)
+);
+
+create table terapija_pacijenta(
+	sifra int not null primary key identity(1,1),
+	pacijent int not null,
+	terapija int
+);
+
+create table medicinska_sestra(
+	sifra int not null primary key identity(1,1),
+	ime varchar(50) not null,
+	prezime varchar(50) not null,
+	oib char(11),
+	terapija int
+);
+
+alter table medicinska_sestra add foreign key (terapija) references terapija (sifra);
+alter table terapija_pacijenta add foreign key (pacijent) references pacijent (sifra);
+alter table terapija_pacijenta add foreign key (terapija) references terapija (sifra);
 
