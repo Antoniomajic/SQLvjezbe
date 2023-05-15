@@ -1,28 +1,36 @@
---create database fakultet;
---use fakultet;
-
-
---create database student;
---drop database student;
+use master;
+--drop database if exists fakultet;
+create database fakultet;
+use fakultet;
 
 create table student(
-	maticnibroj char(5),
-	ime varchar(50),
-	prezime varchar(50)
-);
-
-create table rok(
-	vrijemeodrzavanja datetime,
-	mogucnostonlinepolaganja bit,
-	brojprijava int
+	sifra int not null primary key identity(1,1),
+	ime varchar(50) not null,
+	prezime varchar(50) not null,
+	jmbag char(11)
 );
 
 create table kolegij(
-	naziv varchar(50),
-	predmet varchar(50),
-	sifraprofesora char(5)
+	sifra int not null primary key identity(1,1),
+	naziv varchar(100),
+	opis varchar (200)
 );
 
+create table rok(
+	sifra int not null primary key identity(1,1),
+	vrijeme datetime,
+	kolegij int
+);
+
+create table student_rok(
+	sifra int not null primary key identity(1,1),
+	student int not null,
+	rok int not null
+);
+
+alter table student_rok add foreign key (student) references student (sifra);
+alter table student_rok add foreign key (rok) references rok (sifra);
+alter table rok add foreign key (kolegij) references kolegij (sifra);
 
 
 
