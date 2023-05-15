@@ -1,40 +1,48 @@
---create database postolar;
+use master;
+drop database if exists postolar;
+create database postolar;
+use postolar;
 
---use postolar;
-
-create table obrt(
-	naziv varchar(50),
-	oib char(11),
-	iban char(21)
-);
-
-create table postolar(
-	oib char(11),
-	radnovrijeme int,
-	certificiran bit
+create table korisnik(
+	id int not null primary key identity(1,1),
+	ime varchar(50),
+	prezime varchar(50),
+	telefon varchar(20)
 );
 
 create table obuca(
+	id int not null primary key identity(1,1),
 	marka varchar(50),
-	spol bit,
-	sifra char(8)
+	broj char(2),
+	korisnik int
 );
 
-create table korisnik(
+create table popravak(
+	id int not null primary key identity(1,1),
+	segrt int,
+	trajanje int,
+	cijena decimal(18,2),
+	opis varchar(100)
+);
+
+create table popravak_obuca(
+	id int not null primary key identity(1,1),
+	obuca int,
+	popravak int
+);
+
+create table segrt(
+	id int not null primary key identity(1,1),
 	ime varchar(50),
 	prezime varchar(50),
 	oib char(11)
 );
 
-create table popravak(
-	trajanje int,
-	cijena decimal (18,2),
-	opis varchar(100)
-);
+alter table obuca add foreign key (korisnik) references korisnik (id);
+alter table popravak add foreign key (segrt) references segrt (id);
+alter table popravak_obuca add foreign key (obuca) references obuca (id);
+alter table popravak_obuca add foreign key (popravak) references popravak (id);
 
-create table segrt(
-	ime varchar(50),
-	prezime varchar (50),
-	struka varchar(50)
-);
+
+
 
