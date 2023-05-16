@@ -1,8 +1,10 @@
---drop database if exists salonzauljepsavanje;
+use master;
 
---create database salonzauljepsavanje;
+drop database if exists frizerskisalon;
 
---use salonzauljepsavanje;
+create database frizerskisalon;
+
+use frizerskisalon;
 
 create table djelatnica(
 	sifra int not null primary key identity(1,1),
