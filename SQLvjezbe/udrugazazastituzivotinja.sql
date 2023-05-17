@@ -1,5 +1,6 @@
---create database udrugazazastituzivotinja;
-
+use master;
+drop database if exists udrugazazastituzivotinja;
+create database udrugazazastituzivotinja;
 use udrugazazastituzivotinja;
 
 create table osoba(
@@ -23,4 +24,3 @@ create table prostor(
 
 alter table sticenik add foreign key (osoba) references osoba (sifra);
 alter table sticenik add foreign key (prostor) references prostor (sifra);
-
