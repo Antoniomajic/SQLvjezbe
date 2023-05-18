@@ -1,39 +1,41 @@
-use master;
-drop database if exists udrugazazastituzivotinja;
-create database udrugazazastituzivotinja;
-use udrugazazastituzivotinja;
+ï»¿use master;
+drop database if exists AnimalShelter;
+go
+create database AnimalShelter collate Croatian_CI_AS;
+go
+use AnimalShelter;
 
-create table osoba(
-	sifra int not null primary key identity(1,1),
-	ime varchar(50) not null,
-	prezime varchar(50) not null,
-	oib char(11)
+create table person(
+	id int not null primary key identity(1,1),
+	firstname varchar(50) not null,
+	lastname varchar(50) not null,
+	id_number char(11)
 );
 
-create table sticenik(
-	sifra int not null primary key identity(1,1),
-	prostor int not null,
-	osoba int not null
+create table animal(
+	id int not null primary key identity(1,1),
+	cage int not null,
+	person int not null
 );
 
-create table prostor(
-	sifra int not null primary key identity(1,1),
-	broj char(3),
-	kvadratura varchar(8)
+create table cage(
+	id int not null primary key identity(1,1),
+	number char(3),
+	dimensions varchar(50)
 );
 
-alter table sticenik add foreign key (osoba) references osoba (sifra);
-alter table sticenik add foreign key (prostor) references prostor (sifra);
+alter table animal add foreign key (person) references person (id);
+alter table animal add foreign key (cage) references cage (id);
 
-insert into osoba (ime,prezime,oib)
+insert into person (firstname,lastname,id_number)
 values
-('Mario','Mariæ',null),
-('Marko','Markiæ',null),
-('Marijan','Marijanoviæ',null),
-('Martin','Martinoviæ',null),
-('Matija','Matijeviæ',null);
+('Mario','MariÄ‡',null),
+('Marko','MarkiÄ‡',null),
+('Marijan','MarijanoviÄ‡',null),
+('Martin','MartinoviÄ‡',null),
+('Matija','MatijeviÄ‡',null);
 
-insert into prostor (broj,kvadratura)
+insert into cage (number,dimensions)
 values 
 (101,4),
 (102,4),
@@ -41,7 +43,7 @@ values
 (104,4),
 (105,4);
 
-insert into sticenik (prostor,osoba)
+insert into animal (cage,person)
 values 
 ('1','1'),
 ('2','2'),
