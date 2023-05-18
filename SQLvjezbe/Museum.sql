@@ -63,6 +63,4 @@ insert into artwork (name,description,exhibition)
 			('Kaciga','Srednjovjekovna vojna oprema',1),
 			('Uže slobode','Umjetnièki eksponat nepoznate upotrebe',3);
 
-select * from artwork;
-
 update sponsor set email='spanishembassy@croatia.es' where id=3;
