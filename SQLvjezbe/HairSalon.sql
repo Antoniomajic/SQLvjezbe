@@ -41,17 +41,17 @@ alter table appointment add foreign key (customer) references customer (id);
 
 insert into employee (firstname,lastname,id_number) 
 values 
-('Marija', 'Kne�evi�',null),
-('Matija', 'Aran�elovi�',null),
-('Ivona', 'Martinovi�',null);
+('Marija', 'Knežević',null),
+('Matija', 'Aranđelović',null),
+('Ivona', 'Martinović',null);
 
 
 
 insert into customer (firstname,lastname,sex) 
 values 
-('Marko','Peri�','M'),
-('Ivana','Petrovi�','�'),
-('Silvija','Stankovi�','�');
+('Marko','Perić','M'),
+('Ivana','Petrović','Ž'),
+('Silvija','Stanković','Ž');
 
 insert into service (name,price,duration)
 values
