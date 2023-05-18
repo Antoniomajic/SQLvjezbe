@@ -2,7 +2,7 @@ use master;
 
 drop database if exists HairSalon;
 
-create database HairSalon;
+create database HairSalon collate Croatian_CI_AS; 
 
 use HairSalon;
 
