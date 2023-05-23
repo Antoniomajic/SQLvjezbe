@@ -51,23 +51,23 @@ insert into qualification (name)
 insert into teacher (firstname,lastname,qualification) 
 	values
 			('Elizabeta','Majcen','1'),
-			('Blaenka','Stojkoviæ','1'),
-			('eljka','Fišter','2');
+			('BlaÅ¾enka','StojkoviÄ‡','1'),
+			('Å½eljka','FiÅ¡ter','2');
 
 insert into child (firstname,lastname)
 	values
-			('Šime','Josipoviæ'),
-			('David','Matijaševiæ'),
+			('Å ime','JosipoviÄ‡'),
+			('David','MatijaÅ¡eviÄ‡'),
 			('Ilija','Kramer'),
-			('Josipa','Jakoviæ'),
-			('arko','Volarev'),
-			('Viktorija','eniæ'),
-			('Draenka','Kozul'),
-			('Nikola','Kataviæ'),
-			('Branko','Iliæ'),
-			('Lucija','Krizmaniæ'),
-			('Aleksandar','Bubiæ'),
-			('Oliver','Lovrenèiæ'),
+			('Josipa','JakoviÄ‡'),
+			('Å½arko','Volarev'),
+			('Viktorija','Å½eniÄ‡'),
+			('DraÅ¾enka','Kozul'),
+			('Nikola','KataviÄ‡'),
+			('Branko','IliÄ‡'),
+			('Lucija','KrizmaniÄ‡'),
+			('Aleksandar','BubiÄ‡'),
+			('Oliver','LovrenÄiÄ‡'),
 			('Ivana','Repar');
 
 insert into [group] (max_children,date_of_start,teacher)
