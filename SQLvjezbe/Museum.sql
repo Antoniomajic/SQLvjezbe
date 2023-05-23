@@ -41,26 +41,26 @@ alter table exhibition add foreign key (curator) references curator (id);
 
 insert into curator (firstname,lastname,phone_number)
 	values
-			('Nenad','iiæ','0917458254'),
-			('Marko','Šariæ','0974573256'),
-			('Gabrijela','Vinkoviæ','0986474117');
+			('Nenad','Å½iÅ¾iÄ‡','0917458254'),
+			('Marko','Å ariÄ‡','0974573256'),
+			('Gabrijela','VinkoviÄ‡','0986474117');
 
 insert into sponsor (name,email)
 	values
 			('Konzum','konzum@gmail.com'),
 			('Ured Predsjednika RH','predsjednik@ured.com'),
-			('Veleposlanstvo Kraljevine Španjolske u RH','Spanishembassy@croatia.com');
+			('Veleposlanstvo Kraljevine Å panjolske u RH','Spanishembassy@croatia.com');
 
 insert into exhibition (name,sponsor,curator)
 	values
 			('Suvremena umjetnost',1,3),
-			('Sisak u 15.-tom stoljeæu',2,1),
+			('Sisak u 15.-tom stoljeÄ‡u',2,1),
 			('Alternativna abstrakcija',3,2);
 
 insert into artwork (name,description,exhibition)
 	values
-			('Vrtlog','Slika Andrije Paliæa iz 1997.g.',2),
+			('Vrtlog','Slika Andrije PaliÄ‡a iz 1997.g.',2),
 			('Kaciga','Srednjovjekovna vojna oprema',1),
-			('Ue slobode','Umjetnièki eksponat nepoznate upotrebe',3);
+			('UÅ¾e slobode','UmjetniÄki eksponat nepoznate upotrebe',3);
 
 update sponsor set email='spanishembassy@croatia.es' where id=3;
