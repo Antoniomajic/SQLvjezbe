@@ -45,10 +45,10 @@ alter table shoe_service add foreign key ([service]) references [service] (id);
 
 insert into customer (firstname,lastname,phone_number)
 	values 
-			('Pavao','Krèeliæ','0978523654'),
-			('Damir','Drajaèiæ','0956358875'),
-			('Danica','Vukasoviæ','0974785123'),
-			('eljka','Pretiæ','0912587415');
+			('Pavao','KrÄeliÄ‡','0978523654'),
+			('Damir','DrajaÄiÄ‡','0956358875'),
+			('Danica','VukasoviÄ‡','0974785123'),
+			('Å½eljka','PretiÄ‡','0912587415');
 
 insert into shoe (brand,number,customer)
 	values 
@@ -60,14 +60,14 @@ insert into shoe (brand,number,customer)
 
 insert into apprentice (firstandlastname)
 	values
-			('Mario Mariæ');
+			('Mario MariÄ‡');
 
 
 insert into  [service] (name,duration,price,descripction)
 	values 
-			('Jednostavni popravak','30','10','Jednostavni popravak obuæe'),
-			('Sloeni popravak','60','20','Sloeni popravak obuæe'),
-			('Komplicirani popravak','90','35','Tei popravak obuæe');
+			('Jednostavni popravak','30','10','Jednostavni popravak obuÄ‡e'),
+			('SloÅ¾eni popravak','60','20','SloÅ¾eni popravak obuÄ‡e'),
+			('Komplicirani popravak','90','35','TeÅ¾i popravak obuÄ‡e');
 
 insert into shoe_service (shoe,apprentice,[service])
 	values 
