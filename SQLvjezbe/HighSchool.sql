@@ -48,14 +48,14 @@ insert into student (firstname,lastname,sex,class)
 	values
 			('Matej','Kokot','M','1'),
 			('Dinko','Frijang','M','1'),
-			('Zdravko','Krajinoviæ','M','2'),
-			('Marija','Džaja','Ž','3');
+			('Zdravko','KrajinoviÄ‡','M','2'),
+			('Marija','DÅ¾aja','Å½','3');
 
 insert into professor (firstname,lastname,id_number)
 	values
 			('Matija','Braut','91064433687'),
-			('Ante','Župan','14082055968'),
-			('Edita','Panjiæ','79628991552'),
+			('Ante','Å½upan','14082055968'),
+			('Edita','PanjiÄ‡','79628991552'),
 			('Manuela','Rak','56002245214');
 
 insert into class_professor (class,professor)
