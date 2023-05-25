@@ -1,35 +1,56 @@
---create database djecjaigraonica;
+use master;
+drop database if exists ChildrensPlayroom;
+go
+create database ChildrensPlayroom;
+go
+use ChildrensPlayroom;
 
---use djecjaigraonica;
 
-create table igraonica(
-	adresa varchar(100),
-	naziv varchar(50),
-	iban char(21),
-	email varchar(100),
-	pocetakradnogvremena time,
-	krajradnogvremena time
+create table child(
+	id int not null primary key identity(1,1),
+	firstname varchar(50) not null,
+	lastname varchar(50) not null
 );
 
-create table djete(
-	ime varchar(50),
-	prezime varchar(50),
-	oib char(11),
-	godinarodenja char(4),
-	spol bit
+create table teacher(
+	id int not null primary key identity(1,1),
+	firstname varchar(50) not null,
+	lastname varchar(50) not null
 );
 
-create table skupina(
-	broj int,
-	maksimalnodjece int,
-	dob int
+create table [group](
+	id int not null primary key identity(1,1),
+	name varchar(20),
+	maxChildren varchar(5),
+	teacher int
 );
 
-create table teta(
-	ime varchar(50),
-	prezime varchar(50),
-	oib char(11),
-	telefon varchar(20)
+create table child_group(
+	id int not null primary key identity(1,1),
+	child int,
+	[group] int
 );
 
+alter table [group] add foreign key (teacher) references teacher (id);
+alter table child_group add foreign key (child) references child (id);
+alter table child_group add foreign key ([group]) references [group] (id);
+
+insert into child (firstname,lastname)
+	values
+			('Bobby','Ellis'),
+			('Harrison','Morris'),
+			('Amelie','Williamson'),
+			('Lia','Scott');
+
+insert into teacher (firstname,lastname)
+	values
+			('Carol','Black'),
+			('Tiana','Burton');
+
+insert into [group] (name,maxChildren,teacher)
+	values 
+			('A','10','1'),
+			('B','15','2');
+
+update teacher set lastname='Lloyd' where id=1;
 
