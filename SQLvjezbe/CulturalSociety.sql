@@ -1,23 +1,64 @@
---create database kud;
---use kud;
+use master;
+drop database if exists CulturalSociety;
+go
+create database CulturalSociety collate Croatian_CI_AS;
+go 
+use CulturalSociety;
 
-create table kulturnoumjetnickodrustvo(
-	naziv varchar(100),
-	adresa varchar(100),
-	email varchar(100)
+create table member(
+	id int not null primary key identity(1,1),
+	firstname varchar(50) not null,
+	lastname varchar(50) not null,
+	id_number char(11)
 );
 
-create table nastup(
-	zemlja varchar(100),
-	mjesto varchar(100),
-	opis varchar(200),
-	trajanje int
+create table performance(
+	id int not null primary key identity(1,1),
+	name varchar(100),
 );
 
-create table clan(
-	ime varchar(50),
-	prezime varchar(50),
-	oib char(11),
-	spol bit
+create table city(
+	id int not null primary key identity(1,1),
+	cityName varchar(50),
+	country varchar(50)
 );
+
+create table member_performance(
+	id int not null primary key identity(1,1),
+	member int,
+	performance int
+);
+
+create table performance_city(
+	id int not null primary key identity(1,1),
+	performance int,
+	city int
+);
+
+alter table member_performance add foreign key (member) references member (id);
+alter table member_performance add foreign key (performance) references performance (id);
+alter table performance_city add foreign key (performance) references performance (id);
+alter table performance_city add foreign key (city) references city (id);
+
+insert into member (firstname,lastname,id_number)
+	values 
+			('Zvonimir','Božiæ','29154674946'),
+			('Branimir','Stojanoviæ','50849782101'),
+			('Petra','Zoriæ','32980992260');
+
+insert into performance (name)
+	values 
+			('Nastup KUD-a');
+
+insert into city (cityName,country)
+	values
+			('Osijek','Hrvatska'),
+			('Peèuh','Madžarska');
+
+update city set country='Maðarska' where id=2;
+
+
+
+
+
 
