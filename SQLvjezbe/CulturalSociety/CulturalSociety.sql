@@ -14,7 +14,7 @@ create table member(
 
 create table performance(
 	id int not null primary key identity(1,1),
-	name varchar(100),
+	name varchar(100)
 );
 
 create table city(
@@ -42,9 +42,9 @@ alter table performance_city add foreign key (city) references city (id);
 
 insert into member (firstname,lastname,id_number)
 	values 
-			('Zvonimir','Boiæ','29154674946'),
-			('Branimir','Stojanoviæ','50849782101'),
-			('Petra','Zoriæ','32980992260');
+			('Zvonimir','BoÅ½iÄ‡','29154674946'),
+			('Branimir','StojanoviÄ‡','50849782101'),
+			('Petra','ZoriÄ‡','32980992260');
 
 insert into performance (name)
 	values 
@@ -53,9 +53,9 @@ insert into performance (name)
 insert into city (cityName,country)
 	values
 			('Osijek','Hrvatska'),
-			('Peèuh','Madarska');
+			('PeÄuh','MaÄ‘arska');
 
-update city set country='Mağarska' where id=2;
+update city set country='MaÄ‘arska' where id=2;
 
 
 
