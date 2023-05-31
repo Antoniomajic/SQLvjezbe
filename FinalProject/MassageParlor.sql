@@ -33,3 +33,7 @@ create table appointment_massage(
 	quantity int
 );
 
+
+alter table appointment_massage add foreign key (appointment) references appointment (id);
+alter table appointment_massage add foreign key (massage) references massage (id);
+alter table appointment add foreign key (customer) references customer (id);
