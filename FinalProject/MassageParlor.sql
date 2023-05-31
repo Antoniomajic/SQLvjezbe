@@ -37,3 +37,30 @@ create table appointment_massage(
 alter table appointment_massage add foreign key (appointment) references appointment (id);
 alter table appointment_massage add foreign key (massage) references massage (id);
 alter table appointment add foreign key (customer) references customer (id);
+
+
+insert into customer (firstname,lastname,contact)
+	values 
+			('Domagoj','Krizmaniæ','0972254785'),
+			('Josipa','Lisica','031/105-454'),
+			('Tihomir','Šimunkoviæ','tihomir.simunkovic@gmail.com');
+
+insert into massage (name,description,duration,price)
+	values
+			('Masaža ruku','Dubinska masaža obje ruke, masaža dlanova i šake, nadlaktice i podlaktice','10','5'),
+			('Masaža lica','Dubinska masaža lica sa eteriènim uljima','20','7'),
+			('Masaža leða','Dubinska masaža leða ukljuèujuæi vrat i ramena','30','10');
+
+insert into appointment (dateAndTime,customer)
+	values
+			('2023-05-31 10:00:00','1'),
+			('2023-05-31 11:00:00','2'),
+			('2023-05-31 12:00:00','3');
+
+insert into appointment_massage (appointment,massage,quantity)
+	values
+			('1','1','2'),
+			('2','3','1'),
+			('3','2','1');
+
+			
