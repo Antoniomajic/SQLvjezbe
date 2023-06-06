@@ -5,6 +5,8 @@ create database Practice1;
 go
 use Practice1;
 
+-- 1. CREATE TABLES AND RELATIONS BETWEEN THEM
+
 create table girl(
 	id int not null primary key identity(1,1),
 	coin decimal(16,5) not null,
@@ -89,7 +91,7 @@ alter table woman add foreign key (sister) references sister (id);
 alter table sister_secondFatherInLaw add foreign key (sister) references sister (id);
 alter table sister_secondFatherInLaw add foreign key (secondFatherInLaw) references secondFatherInLaw (id);
 
---INSERTS
+--1. INSERTS
 
 insert  into fatherInLaw (necklace,density,pants)
 	values
@@ -109,7 +111,7 @@ insert into sister (introverted,dress,marks,pants,bracelet)
 	values 
 			('1','Blue summer dress','87.11','Denim','3'),
 			('0','Cocktail dress','7.1','Brown','0'),
-			('1','Leather','182.16','Slim fit black','3');
+			('1','Long baby blue dress','182.16','Slim fit black','3');
 
 insert into sister_secondFatherInLaw (sister,secondFatherInLaw)
 	values
@@ -119,7 +121,7 @@ insert into sister_secondFatherInLaw (sister,secondFatherInLaw)
 
 insert into woman (thirdTime,pants,TShirt,idNumber,colorOfEyes,dress,sister)
 	values
-			(null,'Long','Blue','78451263958','Light Blue','Short','2'),
+			(null,'Armani','Blue','78451263958','Light Blue','Short','2'),
 			('2021-08-14 00:00:00','Smart','Brown','54781245914','Brown','Long dress','1'),
 			(null,'Blue','Brown','00369528715','Brown','Yellow summer dress','3');
 
@@ -133,8 +135,34 @@ insert into youngMan (skirt,kuna,nextTime,asocial,extroverted,sweatshirt,man)
 	values
 			('Short Grey Skirt','584.74',null,'0','0','Adidas Blue','2');
 
+-- 2. CHANGE ALL RECORDS IN COLUMN DENSITY IN "GIRL" TABLE TO 15.77
 
-select * from youngMan;
+update girl set density=15.77;
+
+-- 3. DELETE RECORDS FROM youngMan TABLE WHERE VALUE OF kuna COLUMN > 15.78
+delete from youngMan where kuna>15.78;
+
+-- 4. SELECT TShirt FROM TABLE woman WHERE VALUE OF COLUMN pants CONTAINS LETTERS ana
+select * from woman where TShirt like '&ana&';
+
+-- 5. SHOW sweatshirt FROM TABLE secondFatherInLaw, asocial FROM TABLE youngMan & pants FROM TABLE man WHERE VALUES OF COLUMN pants FROM TABLE woman START WITH LETTER A AND THAT VALUES OF COLUMN dress FROM VALUE sister
+-- CONTAINS ROW OF LETTER BA. ORDER DATA BY pants FROM TABLE man DOWNWARDS.
+
+select a.sweatshirt, f.asocial, e.pants
+from secondFatherInLaw a 
+inner join sister_secondFatherInLaw b			on b.secondFatherInLaw=a.id
+inner join sister c								on b.sister=c.id
+inner join woman d								on d.sister=c.id
+inner join man e								on e.woman=d.id
+inner join youngMan f							on f.man=e.id
+where d.pants='A%' and c.dress='%ba%';
+
+
+
+
+
+
+
 
 
 
