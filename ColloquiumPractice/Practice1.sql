@@ -145,17 +145,22 @@ delete from youngMan where kuna>15.78;
 -- 4. SELECT TShirt FROM TABLE woman WHERE VALUE OF COLUMN pants CONTAINS LETTERS ana
 select * from woman where TShirt like '&ana&';
 
--- 5. SHOW sweatshirt FROM TABLE secondFatherInLaw, asocial FROM TABLE youngMan & pants FROM TABLE man WHERE VALUES OF COLUMN pants FROM TABLE woman START WITH LETTER A AND THAT VALUES OF COLUMN dress FROM VALUE sister
+-- 5. SELECT sweatshirt FROM TABLE secondFatherInLaw, asocial FROM TABLE youngMan & pants FROM TABLE man WHERE VALUES OF COLUMN pants FROM TABLE woman START WITH LETTER A AND THAT VALUES OF COLUMN dress FROM VALUE sister
 -- CONTAINS ROW OF LETTER BA. ORDER DATA BY pants FROM TABLE man DOWNWARDS.
 
-select a.sweatshirt, f.asocial, e.pants
+select distinct a.sweatshirt, f.asocial, e.pants
 from secondFatherInLaw a 
 inner join sister_secondFatherInLaw b			on b.secondFatherInLaw=a.id
-inner join sister c								on b.sister=c.id
+inner join sister c								on c.id=b.sister
 inner join woman d								on d.sister=c.id
 inner join man e								on e.woman=d.id
 inner join youngMan f							on f.man=e.id
-where d.pants='A%' and c.dress='%ba%';
+where d.pants like 'A%' and c.dress like '%ba%'
+order by e.pants;
+
+-- 6. SELECT COLUMN dress & marks FROM TABLE sister WHOSE PRIMARY KEY IS NOT IN TABLE sister_secondFatherInLaw
+select distinct c.dress, c.marks
+from sister c inner join sister_secondFatherInLaw b on b.sister=c.id;
 
 
 
