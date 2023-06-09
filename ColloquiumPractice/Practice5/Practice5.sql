@@ -136,9 +136,9 @@ inner join leftBehind f							on f.motherInLaw=e.id
 where d.firstTime is not null and c.TShirt like '%ba%'
 order by e.earing desc;
 
-select distinct c.TShirt, c.socks
-from firstFatherInLaw c inner join firstFatherInLaw_girl b on b.firstFatherInLaw=c.id;
-
+select firstFatherInLaw.TShirt, firstFatherInLaw.socks
+from firstFatherInLaw
+where id not in (select id from firstFatherInLaw_girl);
 
 
 
