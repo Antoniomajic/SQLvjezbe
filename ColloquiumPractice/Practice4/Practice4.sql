@@ -124,6 +124,7 @@ inner join friend f									on f.reveler=e.id
 where d.thirdTime is not null and c.lipa !=29
 order by e.shortTShirt desc;
 
-select a.lipa, a.ring
-from woman a inner join woman_youngMan b	on b.woman=a.id;
+select woman.lipa, woman.ring
+from woman 
+where id not in (select id from woman_youngMan);
 
