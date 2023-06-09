@@ -135,9 +135,9 @@ inner join secondMotherInLaw f					on f.firstMotherInLaw=e.id
 where d.lipa !=91 and c.dress like '%ba%'
 order by e.kuna desc;
 
-select c.dress, c.lipa
-from friend c inner join friend_brother b  on b.friend=c.id
-where c.id not in (b.id);
+select friend.dress, friend.lipa
+from friend 
+where id not in (select id from friend_brother);
 
 
 
