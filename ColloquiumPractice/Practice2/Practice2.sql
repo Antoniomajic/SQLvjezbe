@@ -132,12 +132,13 @@ select skirt from girl where secondTime is null;
 select a.coin, f.enemy, e.dress
 from fiance a 
 inner join boy_fiance b			on b.fiance=a.id
-inner join boy c				on b.boy=c.id
+inner join boy c				on c.id=b.boy
 inner join girl d				on d.boy=c.id
 inner join enemy e				on e.girl=d.id
 inner join brother f			on f.enemy=e.id
 where d.secondTime is not null and c.cardigan like '%ba%'
 order by e.dress desc;
 
-select c.cardigan, c.asocial 
-from boy c inner join boy_fiance b on b.boy=c.id;
+select distinct boy.cardigan, boy.asocial
+from boy 
+where id not in (select id from boy_fiance);
