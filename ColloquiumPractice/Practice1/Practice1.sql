@@ -111,13 +111,16 @@ insert into sister (introverted,dress,marks,pants,bracelet)
 	values 
 			('1','Blue summer dress','87.11','Denim','3'),
 			('0','Cocktail dress','7.1','Brown','0'),
-			('1','Long baby blue dress','182.16','Slim fit black','3');
+			('1','Long baby blue dress','182.16','Slim fit black','3'),
+			('1','Long dress','82.16','Slim fit blue','5');
+
 
 insert into sister_secondFatherInLaw (sister,secondFatherInLaw)
 	values
 			(1,1),
 			(2,3),
 			(3,2);
+
 
 insert into woman (thirdTime,pants,TShirt,idNumber,colorOfEyes,dress,sister)
 	values
@@ -159,8 +162,12 @@ where d.pants like 'A%' and c.dress like '%ba%'
 order by e.pants;
 
 -- 6. SELECT COLUMN dress & marks FROM TABLE sister WHOSE PRIMARY KEY IS NOT IN TABLE sister_secondFatherInLaw
-select distinct c.dress, c.marks
-from sister c inner join sister_secondFatherInLaw b on b.sister=c.id;
+select distinct sister.dress, sister.marks
+from sister 
+where id not in (select id from sister_secondFatherInLaw);
+
+
+
 
 
 
