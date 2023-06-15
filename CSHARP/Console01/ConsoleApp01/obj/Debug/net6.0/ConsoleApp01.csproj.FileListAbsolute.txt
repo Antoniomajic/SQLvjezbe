@@ -1,0 +1,15 @@
+C:\SQLvjezbe\CSHARP\Console01\ConsoleApp01\bin\Debug\net6.0\ConsoleApp01.exe
+C:\SQLvjezbe\CSHARP\Console01\ConsoleApp01\bin\Debug\net6.0\ConsoleApp01.deps.json
+C:\SQLvjezbe\CSHARP\Console01\ConsoleApp01\bin\Debug\net6.0\ConsoleApp01.runtimeconfig.json
+C:\SQLvjezbe\CSHARP\Console01\ConsoleApp01\bin\Debug\net6.0\ConsoleApp01.dll
+C:\SQLvjezbe\CSHARP\Console01\ConsoleApp01\bin\Debug\net6.0\ConsoleApp01.pdb
+C:\SQLvjezbe\CSHARP\Console01\ConsoleApp01\obj\Debug\net6.0\ConsoleApp01.csproj.AssemblyReference.cache
+C:\SQLvjezbe\CSHARP\Console01\ConsoleApp01\obj\Debug\net6.0\ConsoleApp01.GeneratedMSBuildEditorConfig.editorconfig
+C:\SQLvjezbe\CSHARP\Console01\ConsoleApp01\obj\Debug\net6.0\ConsoleApp01.AssemblyInfoInputs.cache
+C:\SQLvjezbe\CSHARP\Console01\ConsoleApp01\obj\Debug\net6.0\ConsoleApp01.AssemblyInfo.cs
+C:\SQLvjezbe\CSHARP\Console01\ConsoleApp01\obj\Debug\net6.0\ConsoleApp01.csproj.CoreCompileInputs.cache
+C:\SQLvjezbe\CSHARP\Console01\ConsoleApp01\obj\Debug\net6.0\ConsoleApp01.dll
+C:\SQLvjezbe\CSHARP\Console01\ConsoleApp01\obj\Debug\net6.0\refint\ConsoleApp01.dll
+C:\SQLvjezbe\CSHARP\Console01\ConsoleApp01\obj\Debug\net6.0\ConsoleApp01.pdb
+C:\SQLvjezbe\CSHARP\Console01\ConsoleApp01\obj\Debug\net6.0\ConsoleApp01.genruntimeconfig.cache
+C:\SQLvjezbe\CSHARP\Console01\ConsoleApp01\obj\Debug\net6.0\ref\ConsoleApp01.dll
