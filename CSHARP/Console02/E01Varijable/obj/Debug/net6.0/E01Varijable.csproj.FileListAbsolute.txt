@@ -1,0 +1,15 @@
+C:\SQLvjezbe\CSHARP\Console02\E01Varijable\bin\Debug\net6.0\E01Varijable.exe
+C:\SQLvjezbe\CSHARP\Console02\E01Varijable\bin\Debug\net6.0\E01Varijable.deps.json
+C:\SQLvjezbe\CSHARP\Console02\E01Varijable\bin\Debug\net6.0\E01Varijable.runtimeconfig.json
+C:\SQLvjezbe\CSHARP\Console02\E01Varijable\bin\Debug\net6.0\E01Varijable.dll
+C:\SQLvjezbe\CSHARP\Console02\E01Varijable\bin\Debug\net6.0\E01Varijable.pdb
+C:\SQLvjezbe\CSHARP\Console02\E01Varijable\obj\Debug\net6.0\E01Varijable.csproj.AssemblyReference.cache
+C:\SQLvjezbe\CSHARP\Console02\E01Varijable\obj\Debug\net6.0\E01Varijable.GeneratedMSBuildEditorConfig.editorconfig
+C:\SQLvjezbe\CSHARP\Console02\E01Varijable\obj\Debug\net6.0\E01Varijable.AssemblyInfoInputs.cache
+C:\SQLvjezbe\CSHARP\Console02\E01Varijable\obj\Debug\net6.0\E01Varijable.AssemblyInfo.cs
+C:\SQLvjezbe\CSHARP\Console02\E01Varijable\obj\Debug\net6.0\E01Varijable.csproj.CoreCompileInputs.cache
+C:\SQLvjezbe\CSHARP\Console02\E01Varijable\obj\Debug\net6.0\E01Varijable.dll
+C:\SQLvjezbe\CSHARP\Console02\E01Varijable\obj\Debug\net6.0\refint\E01Varijable.dll
+C:\SQLvjezbe\CSHARP\Console02\E01Varijable\obj\Debug\net6.0\E01Varijable.pdb
+C:\SQLvjezbe\CSHARP\Console02\E01Varijable\obj\Debug\net6.0\E01Varijable.genruntimeconfig.cache
+C:\SQLvjezbe\CSHARP\Console02\E01Varijable\obj\Debug\net6.0\ref\E01Varijable.dll

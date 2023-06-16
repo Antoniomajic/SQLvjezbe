@@ -1,0 +1,15 @@
+C:\SQLvjezbe\CSHARP\Console02\E04Operatori\bin\Debug\net6.0\E04Operatori.exe
+C:\SQLvjezbe\CSHARP\Console02\E04Operatori\bin\Debug\net6.0\E04Operatori.deps.json
+C:\SQLvjezbe\CSHARP\Console02\E04Operatori\bin\Debug\net6.0\E04Operatori.runtimeconfig.json
+C:\SQLvjezbe\CSHARP\Console02\E04Operatori\bin\Debug\net6.0\E04Operatori.dll
+C:\SQLvjezbe\CSHARP\Console02\E04Operatori\bin\Debug\net6.0\E04Operatori.pdb
+C:\SQLvjezbe\CSHARP\Console02\E04Operatori\obj\Debug\net6.0\E04Operatori.csproj.AssemblyReference.cache
+C:\SQLvjezbe\CSHARP\Console02\E04Operatori\obj\Debug\net6.0\E04Operatori.GeneratedMSBuildEditorConfig.editorconfig
+C:\SQLvjezbe\CSHARP\Console02\E04Operatori\obj\Debug\net6.0\E04Operatori.AssemblyInfoInputs.cache
+C:\SQLvjezbe\CSHARP\Console02\E04Operatori\obj\Debug\net6.0\E04Operatori.AssemblyInfo.cs
+C:\SQLvjezbe\CSHARP\Console02\E04Operatori\obj\Debug\net6.0\E04Operatori.csproj.CoreCompileInputs.cache
+C:\SQLvjezbe\CSHARP\Console02\E04Operatori\obj\Debug\net6.0\E04Operatori.dll
+C:\SQLvjezbe\CSHARP\Console02\E04Operatori\obj\Debug\net6.0\refint\E04Operatori.dll
+C:\SQLvjezbe\CSHARP\Console02\E04Operatori\obj\Debug\net6.0\E04Operatori.pdb
+C:\SQLvjezbe\CSHARP\Console02\E04Operatori\obj\Debug\net6.0\E04Operatori.genruntimeconfig.cache
+C:\SQLvjezbe\CSHARP\Console02\E04Operatori\obj\Debug\net6.0\ref\E04Operatori.dll

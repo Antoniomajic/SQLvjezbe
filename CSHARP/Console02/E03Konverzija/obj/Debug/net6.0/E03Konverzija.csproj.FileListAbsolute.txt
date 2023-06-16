@@ -1,0 +1,15 @@
+C:\SQLvjezbe\CSHARP\Console02\E03Konverzija\bin\Debug\net6.0\E03Konverzija.exe
+C:\SQLvjezbe\CSHARP\Console02\E03Konverzija\bin\Debug\net6.0\E03Konverzija.deps.json
+C:\SQLvjezbe\CSHARP\Console02\E03Konverzija\bin\Debug\net6.0\E03Konverzija.runtimeconfig.json
+C:\SQLvjezbe\CSHARP\Console02\E03Konverzija\bin\Debug\net6.0\E03Konverzija.dll
+C:\SQLvjezbe\CSHARP\Console02\E03Konverzija\bin\Debug\net6.0\E03Konverzija.pdb
+C:\SQLvjezbe\CSHARP\Console02\E03Konverzija\obj\Debug\net6.0\E03Konverzija.csproj.AssemblyReference.cache
+C:\SQLvjezbe\CSHARP\Console02\E03Konverzija\obj\Debug\net6.0\E03Konverzija.GeneratedMSBuildEditorConfig.editorconfig
+C:\SQLvjezbe\CSHARP\Console02\E03Konverzija\obj\Debug\net6.0\E03Konverzija.AssemblyInfoInputs.cache
+C:\SQLvjezbe\CSHARP\Console02\E03Konverzija\obj\Debug\net6.0\E03Konverzija.AssemblyInfo.cs
+C:\SQLvjezbe\CSHARP\Console02\E03Konverzija\obj\Debug\net6.0\E03Konverzija.csproj.CoreCompileInputs.cache
+C:\SQLvjezbe\CSHARP\Console02\E03Konverzija\obj\Debug\net6.0\E03Konverzija.dll
+C:\SQLvjezbe\CSHARP\Console02\E03Konverzija\obj\Debug\net6.0\refint\E03Konverzija.dll
+C:\SQLvjezbe\CSHARP\Console02\E03Konverzija\obj\Debug\net6.0\E03Konverzija.pdb
+C:\SQLvjezbe\CSHARP\Console02\E03Konverzija\obj\Debug\net6.0\E03Konverzija.genruntimeconfig.cache
+C:\SQLvjezbe\CSHARP\Console02\E03Konverzija\obj\Debug\net6.0\ref\E03Konverzija.dll
