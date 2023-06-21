@@ -1,0 +1,15 @@
+C:\SQLvjezbe\CSHARP\Console03\E01UvjetnoGrananjeIf\bin\Debug\net6.0\E01UvjetnoGrananjeIf.exe
+C:\SQLvjezbe\CSHARP\Console03\E01UvjetnoGrananjeIf\bin\Debug\net6.0\E01UvjetnoGrananjeIf.deps.json
+C:\SQLvjezbe\CSHARP\Console03\E01UvjetnoGrananjeIf\bin\Debug\net6.0\E01UvjetnoGrananjeIf.runtimeconfig.json
+C:\SQLvjezbe\CSHARP\Console03\E01UvjetnoGrananjeIf\bin\Debug\net6.0\E01UvjetnoGrananjeIf.dll
+C:\SQLvjezbe\CSHARP\Console03\E01UvjetnoGrananjeIf\bin\Debug\net6.0\E01UvjetnoGrananjeIf.pdb
+C:\SQLvjezbe\CSHARP\Console03\E01UvjetnoGrananjeIf\obj\Debug\net6.0\E01UvjetnoGrananjeIf.csproj.AssemblyReference.cache
+C:\SQLvjezbe\CSHARP\Console03\E01UvjetnoGrananjeIf\obj\Debug\net6.0\E01UvjetnoGrananjeIf.GeneratedMSBuildEditorConfig.editorconfig
+C:\SQLvjezbe\CSHARP\Console03\E01UvjetnoGrananjeIf\obj\Debug\net6.0\E01UvjetnoGrananjeIf.AssemblyInfoInputs.cache
+C:\SQLvjezbe\CSHARP\Console03\E01UvjetnoGrananjeIf\obj\Debug\net6.0\E01UvjetnoGrananjeIf.AssemblyInfo.cs
+C:\SQLvjezbe\CSHARP\Console03\E01UvjetnoGrananjeIf\obj\Debug\net6.0\E01UvjetnoGrananjeIf.csproj.CoreCompileInputs.cache
+C:\SQLvjezbe\CSHARP\Console03\E01UvjetnoGrananjeIf\obj\Debug\net6.0\E01UvjetnoGrananjeIf.dll
+C:\SQLvjezbe\CSHARP\Console03\E01UvjetnoGrananjeIf\obj\Debug\net6.0\refint\E01UvjetnoGrananjeIf.dll
+C:\SQLvjezbe\CSHARP\Console03\E01UvjetnoGrananjeIf\obj\Debug\net6.0\E01UvjetnoGrananjeIf.pdb
+C:\SQLvjezbe\CSHARP\Console03\E01UvjetnoGrananjeIf\obj\Debug\net6.0\E01UvjetnoGrananjeIf.genruntimeconfig.cache
+C:\SQLvjezbe\CSHARP\Console03\E01UvjetnoGrananjeIf\obj\Debug\net6.0\ref\E01UvjetnoGrananjeIf.dll

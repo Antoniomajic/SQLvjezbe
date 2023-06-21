@@ -1,0 +1,15 @@
+C:\SQLvjezbe\CSHARP\Console03\E03Nizovi\bin\Debug\net6.0\E03Nizovi.exe
+C:\SQLvjezbe\CSHARP\Console03\E03Nizovi\bin\Debug\net6.0\E03Nizovi.deps.json
+C:\SQLvjezbe\CSHARP\Console03\E03Nizovi\bin\Debug\net6.0\E03Nizovi.runtimeconfig.json
+C:\SQLvjezbe\CSHARP\Console03\E03Nizovi\bin\Debug\net6.0\E03Nizovi.dll
+C:\SQLvjezbe\CSHARP\Console03\E03Nizovi\bin\Debug\net6.0\E03Nizovi.pdb
+C:\SQLvjezbe\CSHARP\Console03\E03Nizovi\obj\Debug\net6.0\E03Nizovi.csproj.AssemblyReference.cache
+C:\SQLvjezbe\CSHARP\Console03\E03Nizovi\obj\Debug\net6.0\E03Nizovi.GeneratedMSBuildEditorConfig.editorconfig
+C:\SQLvjezbe\CSHARP\Console03\E03Nizovi\obj\Debug\net6.0\E03Nizovi.AssemblyInfoInputs.cache
+C:\SQLvjezbe\CSHARP\Console03\E03Nizovi\obj\Debug\net6.0\E03Nizovi.AssemblyInfo.cs
+C:\SQLvjezbe\CSHARP\Console03\E03Nizovi\obj\Debug\net6.0\E03Nizovi.csproj.CoreCompileInputs.cache
+C:\SQLvjezbe\CSHARP\Console03\E03Nizovi\obj\Debug\net6.0\E03Nizovi.dll
+C:\SQLvjezbe\CSHARP\Console03\E03Nizovi\obj\Debug\net6.0\refint\E03Nizovi.dll
+C:\SQLvjezbe\CSHARP\Console03\E03Nizovi\obj\Debug\net6.0\E03Nizovi.pdb
+C:\SQLvjezbe\CSHARP\Console03\E03Nizovi\obj\Debug\net6.0\E03Nizovi.genruntimeconfig.cache
+C:\SQLvjezbe\CSHARP\Console03\E03Nizovi\obj\Debug\net6.0\ref\E03Nizovi.dll
