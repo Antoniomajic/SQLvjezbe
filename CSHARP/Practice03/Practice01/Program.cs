@@ -62,7 +62,7 @@ Console.WriteLine(b);
 // 1. zadatak
 // Deklarirajte 4 varijable različitih tipova podataka. Svakom od njih dodijelite vrijednost po želji. Sve ih odjednom ispišite jedno pored drugog
 // Rješenje
-Console.WriteLine("4. *************");
+Console.WriteLine("5. *************");
 int broj1 = 15; bool tocno = true; string niz = "Niz znakova"; char z = 'A';
 Console.WriteLine("{0},{1},{2},{3}", broj1, tocno, niz, z);
 
