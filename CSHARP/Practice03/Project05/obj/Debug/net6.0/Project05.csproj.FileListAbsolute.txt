@@ -1,0 +1,15 @@
+C:\SQLvjezbe\CSHARP\Practice03\Project05\bin\Debug\net6.0\Project05.exe
+C:\SQLvjezbe\CSHARP\Practice03\Project05\bin\Debug\net6.0\Project05.deps.json
+C:\SQLvjezbe\CSHARP\Practice03\Project05\bin\Debug\net6.0\Project05.runtimeconfig.json
+C:\SQLvjezbe\CSHARP\Practice03\Project05\bin\Debug\net6.0\Project05.dll
+C:\SQLvjezbe\CSHARP\Practice03\Project05\bin\Debug\net6.0\Project05.pdb
+C:\SQLvjezbe\CSHARP\Practice03\Project05\obj\Debug\net6.0\Project05.csproj.AssemblyReference.cache
+C:\SQLvjezbe\CSHARP\Practice03\Project05\obj\Debug\net6.0\Project05.GeneratedMSBuildEditorConfig.editorconfig
+C:\SQLvjezbe\CSHARP\Practice03\Project05\obj\Debug\net6.0\Project05.AssemblyInfoInputs.cache
+C:\SQLvjezbe\CSHARP\Practice03\Project05\obj\Debug\net6.0\Project05.AssemblyInfo.cs
+C:\SQLvjezbe\CSHARP\Practice03\Project05\obj\Debug\net6.0\Project05.csproj.CoreCompileInputs.cache
+C:\SQLvjezbe\CSHARP\Practice03\Project05\obj\Debug\net6.0\Project05.dll
+C:\SQLvjezbe\CSHARP\Practice03\Project05\obj\Debug\net6.0\refint\Project05.dll
+C:\SQLvjezbe\CSHARP\Practice03\Project05\obj\Debug\net6.0\Project05.pdb
+C:\SQLvjezbe\CSHARP\Practice03\Project05\obj\Debug\net6.0\Project05.genruntimeconfig.cache
+C:\SQLvjezbe\CSHARP\Practice03\Project05\obj\Debug\net6.0\ref\Project05.dll

@@ -66,4 +66,4 @@ Console.WriteLine("5. *************");
 int broj1 = 15; bool tocno = true; string niz = "Niz znakova"; char z = 'A';
 Console.WriteLine("{0},{1},{2},{3}", broj1, tocno, niz, z);
 
-//Console.WriteLine(broj1);  ispisuje vrijednost varijeble broj1 (koja je int tip podatka, a dodijeljena vrijednost je 15
+//Console.WriteLine(broj1);  ispisuje vrijednost varijable broj1 (koja je int tip podatka, a dodijeljena vrijednost je 15
