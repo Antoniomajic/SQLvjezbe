@@ -1,5 +1,4 @@
-﻿
-// 10 puta ispiši Osijek
+﻿// 10 puta ispiši Osijek
 // najgore rješenje
 //Console.WriteLine("Osijek");
 //Console.WriteLine("Osijek");
@@ -15,14 +14,14 @@
 // for (od kuda; do kuda; korak)
 
 Console.WriteLine("1. ***********");
-for (int i = 0; i < 10; i= i + 1)
+for (int i = 0; i < 10; i = i + 1)
 {
     Console.WriteLine("Osijek");
 }
 
 Console.WriteLine("2. ***********");
 int j = 0;
-for(j = 10; j > 0; j--)
+for (j = 10; j > 0; j--)
 {
     Console.WriteLine("Edunova");
 }
@@ -30,27 +29,27 @@ for(j = 10; j > 0; j--)
 // domaća zadaća : vježbati sa break point i debug
 
 Console.WriteLine("3. *********");
-for(int i = 0;i < 10;i= i + 2)
+for (int i = 0; i < 10; i = i + 2)
 {
     Console.WriteLine("CSHARP");
 }
 
 // varijabla u petlji mijejna vrijednost!!!!!
 Console.WriteLine("4. ***********");
-for (int i = 0;i<10;i ++)
+for (int i = 0; i < 10; i++)
 {
     Console.WriteLine(i);
 }
 
 Console.WriteLine("5. ***********");
-for(int i=0;i < 10; i++)
+for (int i = 0; i < 10; i++)
 {
-    Console.WriteLine(i+1); // i+1 ne mijenja vrijednost varijable i
+    Console.WriteLine(i + 1); // i+1 ne mijenja vrijednost varijable i
 }
 
 Console.WriteLine("6. ***********");
 // ne koristiti
-for(int i = 1; i <= 10; i++)
+for (int i = 1; i <= 10; i++)
 {
     Console.WriteLine(i);
 }
@@ -58,7 +57,7 @@ for(int i = 1; i <= 10; i++)
 Console.WriteLine("7. ***********");
 // zbroj prvih 100 brojeva
 int zbroj = 0;
-for(int i =1; i <= 100; i++)
+for (int i = 1; i <= 100; i++)
 {
     //Console.WriteLine(i); // ispisuje od 1 do 100
     zbroj += i; // zbroj=zbroj+i
@@ -68,9 +67,9 @@ Console.WriteLine(zbroj);
 
 Console.WriteLine("8. ***********");
 // ispisati sve parne brojeve od 1 do 57
-for(int i=1;i<= 57; i++)
+for (int i = 1; i <= 57; i++)
 {
-    if(i%2== 0)
+    if (i % 2 == 0)
     {
         Console.WriteLine(i);
     }
@@ -79,11 +78,11 @@ for(int i=1;i<= 57; i++)
 Console.WriteLine("9. ***********");
 // ispiši zbroj svih parnih brojeva od 2 do 18
 zbroj = 0;
-for(int i = 2; i <= 18; i++)
+for (int i = 2; i <= 18; i++)
 {
-    if(i%2==0)
+    if (i % 2 == 0)
     {
-        zbroj+= i;
+        zbroj += i;
     }
 }
 Console.WriteLine(zbroj);
@@ -93,7 +92,7 @@ int[] niz = { 2, 2, 34, 54, 5, 6, 76, 7, 8, 7, 8 };
 
 Console.WriteLine("10. ***********");
 // jedno ispod drugog ispisati svaki element niza
-for(int i = 0; i< niz.Length; i++)
+for (int i = 0; i < niz.Length; i++)
 {
     Console.WriteLine(niz[i]);
 }
@@ -105,19 +104,19 @@ for(int i = 0; i< niz.Length; i++)
 
 Console.WriteLine("11. ***********");
 Console.WriteLine("Unesi koliko brojeva provjeravaš");
-int brojeva=int.Parse(Console.ReadLine());
+int brojeva = int.Parse(Console.ReadLine());
 int broj; //unutar petlje nikada ne deklarirati varijablu, uvijek izvan petlje
 int najveci = int.MinValue;
-for(int i = 0; i < brojeva; i++)
+for (int i = 0; i < brojeva; i++)
 {
-    Console.WriteLine("Unesi {0}. broj: ",i+1);
-    broj= int.Parse(Console.ReadLine());
+    Console.WriteLine("Unesi {0}. broj: ", i + 1);
+    broj = int.Parse(Console.ReadLine());
     if (broj > najveci)
     {
         najveci = broj;
     }
 }
-Console.WriteLine("Najveći broj je {0}",najveci);
+Console.WriteLine("Najveći broj je {0}", najveci);
 
 // beskonačna petlja
 //ovo nije beskonačna petlja
@@ -129,7 +128,7 @@ Console.WriteLine("Najveći broj je {0}",najveci);
 Console.WriteLine("12. ***********");
 // OVO JE BESKONAČNA PETLJA
 // nasilnop prekidanje petlje: break;
-for(; ; )
+for (; ; )
 {
     Console.WriteLine(new Random().NextDouble()); // loša sintaksa
     break;
@@ -148,9 +147,9 @@ for (int i = 0; i < 10; i++)
 
 // petlja se može nastaviti/preskočiti
 Console.WriteLine("13. ***********");
-for(int i=0; i<10; i++)
+for (int i = 0; i < 10; i++)
 {
-    if(i==2 || i == 5)
+    if (i == 2 || i == 5)
     {
         continue;
     }
@@ -160,9 +159,9 @@ for(int i=0; i<10; i++)
 Console.WriteLine("14. ***********");
 // ugnježđivanje petlji
 string s;
-for(int i = 1; i <= 10; i++)
+for (int i = 1; i <= 10; i++)
 {
-    for(int k =1;k <= 10; k++)
+    for (int k = 1; k <= 10; k++)
     {
         s = "   " + i * k;
         Console.WriteLine(s[^4..]);
@@ -185,6 +184,8 @@ for (int i = 0; i < 10; i++)
 
 labela:;
 
+
+Console.WriteLine("16. *****************");
 // 9 različitih načina zbaranja prvih 100 brojeva
 
 //int i, s=0; for(i=1;i<=100;i++) s+=i;
