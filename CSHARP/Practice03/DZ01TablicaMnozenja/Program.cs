@@ -22,12 +22,8 @@
 //		konzole i pri tome pripaziti da zadnje slovo
 //		imena bude poravnato s desnim rubom tablice.
 
-
-string zbroj;
-string a = ":  ";
-string b = " :by ";
-Console.WriteLine("Unesi svoje ime: ");
-string autor = Console.ReadLine();
+Console.Write("Upiši svoje ime: ");
+string ime = Console.ReadLine();
 
 Console.WriteLine("-------------------------------");
 Console.WriteLine(": : :  TABLICA  MNOZENJA  : : :");
@@ -36,27 +32,42 @@ Console.WriteLine("-------------------------------");
 Console.Write(" * |");
 for (int i = 1; i < 10; i++)
 {
-    Console.Write("  " +i);
+    Console.Write("  " + i);
 }
 
 Console.WriteLine("\n-------------------------------");
 
-for(int j=1; j < 10; j++)
-{
-    Console.Write(" " + j + " |");
-    for(int k=1; k < 10; k++)
+string s;
+string a = ":  ";
+string b = ":by ";
+bool uvjet = a.Length < (b.Length + ime.Length);
+string c;
+
+
+for (int i = 1; i < 10; i++)
     {
-        zbroj= "    " + j *k;
-        Console.Write(zbroj[^3..]);
+        if (i >= 1 && i < 10)
+        {
+            Console.Write(" " + i + " |");
+        }
+        for (int j = 1; j < 10; j++)
+        {
+            s = "  " + i * j;
+            Console.Write(s[^3..]);
+        }
+        Console.WriteLine();
+        
     }
-    Console.WriteLine();
-}
+
 
 Console.WriteLine("-------------------------------");
+Console.WriteLine(a+b+ime);// netočno
+Console.WriteLine("\n-------------------------------");
 
-Console.WriteLine(":  :  :  :  :  :  :  by " + autor);
 
-Console.WriteLine("-------------------------------");
+
+
+
 
 
 
