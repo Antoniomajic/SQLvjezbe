@@ -40,8 +40,8 @@ Console.WriteLine("\n-------------------------------");
 string s;
 string a = ":  ";
 string b = ":by ";
-bool uvjet = a.Length < (b.Length + ime.Length);
-string c;
+
+
 
 
 for (int i = 1; i < 10; i++)
