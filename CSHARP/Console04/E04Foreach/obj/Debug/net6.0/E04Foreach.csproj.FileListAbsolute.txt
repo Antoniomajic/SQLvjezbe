@@ -1,0 +1,15 @@
+C:\SQLvjezbe\CSHARP\Console04\E04Foreach\bin\Debug\net6.0\E04Foreach.exe
+C:\SQLvjezbe\CSHARP\Console04\E04Foreach\bin\Debug\net6.0\E04Foreach.deps.json
+C:\SQLvjezbe\CSHARP\Console04\E04Foreach\bin\Debug\net6.0\E04Foreach.runtimeconfig.json
+C:\SQLvjezbe\CSHARP\Console04\E04Foreach\bin\Debug\net6.0\E04Foreach.dll
+C:\SQLvjezbe\CSHARP\Console04\E04Foreach\bin\Debug\net6.0\E04Foreach.pdb
+C:\SQLvjezbe\CSHARP\Console04\E04Foreach\obj\Debug\net6.0\E04Foreach.csproj.AssemblyReference.cache
+C:\SQLvjezbe\CSHARP\Console04\E04Foreach\obj\Debug\net6.0\E04Foreach.GeneratedMSBuildEditorConfig.editorconfig
+C:\SQLvjezbe\CSHARP\Console04\E04Foreach\obj\Debug\net6.0\E04Foreach.AssemblyInfoInputs.cache
+C:\SQLvjezbe\CSHARP\Console04\E04Foreach\obj\Debug\net6.0\E04Foreach.AssemblyInfo.cs
+C:\SQLvjezbe\CSHARP\Console04\E04Foreach\obj\Debug\net6.0\E04Foreach.csproj.CoreCompileInputs.cache
+C:\SQLvjezbe\CSHARP\Console04\E04Foreach\obj\Debug\net6.0\E04Foreach.dll
+C:\SQLvjezbe\CSHARP\Console04\E04Foreach\obj\Debug\net6.0\refint\E04Foreach.dll
+C:\SQLvjezbe\CSHARP\Console04\E04Foreach\obj\Debug\net6.0\E04Foreach.pdb
+C:\SQLvjezbe\CSHARP\Console04\E04Foreach\obj\Debug\net6.0\E04Foreach.genruntimeconfig.cache
+C:\SQLvjezbe\CSHARP\Console04\E04Foreach\obj\Debug\net6.0\ref\E04Foreach.dll

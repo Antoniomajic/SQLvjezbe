@@ -1,0 +1,15 @@
+C:\SQLvjezbe\CSHARP\Console04\E01ForPetlja\bin\Debug\net6.0\E01ForPetlja.exe
+C:\SQLvjezbe\CSHARP\Console04\E01ForPetlja\bin\Debug\net6.0\E01ForPetlja.deps.json
+C:\SQLvjezbe\CSHARP\Console04\E01ForPetlja\bin\Debug\net6.0\E01ForPetlja.runtimeconfig.json
+C:\SQLvjezbe\CSHARP\Console04\E01ForPetlja\bin\Debug\net6.0\E01ForPetlja.dll
+C:\SQLvjezbe\CSHARP\Console04\E01ForPetlja\bin\Debug\net6.0\E01ForPetlja.pdb
+C:\SQLvjezbe\CSHARP\Console04\E01ForPetlja\obj\Debug\net6.0\E01ForPetlja.csproj.AssemblyReference.cache
+C:\SQLvjezbe\CSHARP\Console04\E01ForPetlja\obj\Debug\net6.0\E01ForPetlja.GeneratedMSBuildEditorConfig.editorconfig
+C:\SQLvjezbe\CSHARP\Console04\E01ForPetlja\obj\Debug\net6.0\E01ForPetlja.AssemblyInfoInputs.cache
+C:\SQLvjezbe\CSHARP\Console04\E01ForPetlja\obj\Debug\net6.0\E01ForPetlja.AssemblyInfo.cs
+C:\SQLvjezbe\CSHARP\Console04\E01ForPetlja\obj\Debug\net6.0\E01ForPetlja.csproj.CoreCompileInputs.cache
+C:\SQLvjezbe\CSHARP\Console04\E01ForPetlja\obj\Debug\net6.0\E01ForPetlja.dll
+C:\SQLvjezbe\CSHARP\Console04\E01ForPetlja\obj\Debug\net6.0\refint\E01ForPetlja.dll
+C:\SQLvjezbe\CSHARP\Console04\E01ForPetlja\obj\Debug\net6.0\E01ForPetlja.pdb
+C:\SQLvjezbe\CSHARP\Console04\E01ForPetlja\obj\Debug\net6.0\E01ForPetlja.genruntimeconfig.cache
+C:\SQLvjezbe\CSHARP\Console04\E01ForPetlja\obj\Debug\net6.0\ref\E01ForPetlja.dll
