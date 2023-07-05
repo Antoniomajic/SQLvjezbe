@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\SQLvjezbe\\CSHARP\\Practice03\\Practice03\\Practice03.csproj",
-      "projectName": "Practice03",
-      "projectPath": "C:\\SQLvjezbe\\CSHARP\\Practice03\\Practice03\\Practice03.csproj",
+      "projectUniqueName": "C:\\SQLvjezbe\\CSHARP\\Practice03\\Practice03\\Project03.csproj",
+      "projectName": "Project03",
+      "projectPath": "C:\\SQLvjezbe\\CSHARP\\Practice03\\Practice03\\Project03.csproj",
       "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
       "outputPath": "C:\\SQLvjezbe\\CSHARP\\Practice03\\Practice03\\obj\\",
       "projectStyle": "PackageReference",

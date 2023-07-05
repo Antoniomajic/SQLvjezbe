@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project01", "Practice01\Pro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project02", "Project02\Project02.csproj", "{969090FE-88D2-480A-8FDE-9A1B4CD231C8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice03", "Practice03\Practice03.csproj", "{13058C46-7B45-4EB6-B321-D0DF1C734791}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project03", "Practice03\Project03.csproj", "{13058C46-7B45-4EB6-B321-D0DF1C734791}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project04", "Project04\Project04.csproj", "{2168CA28-4ED7-4BEA-85F4-1696294A444F}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DZ02", "DZ02\DZ02.csproj", "{F43B2048-1D2D-438C-847E-1ABA4D56BD91}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project06", "Project06\Project06.csproj", "{2303D525-5C91-4A9F-B835-9FEB68B8FFB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project07", "Project07\Project07.csproj", "{186821C7-2786-4562-9906-74100230E966}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{2303D525-5C91-4A9F-B835-9FEB68B8FFB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2303D525-5C91-4A9F-B835-9FEB68B8FFB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2303D525-5C91-4A9F-B835-9FEB68B8FFB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{186821C7-2786-4562-9906-74100230E966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{186821C7-2786-4562-9906-74100230E966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{186821C7-2786-4562-9906-74100230E966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{186821C7-2786-4562-9906-74100230E966}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
