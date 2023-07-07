@@ -1,0 +1,15 @@
+C:\SQLvjezbe\CSHARP\Console05\E02TryCatch\bin\Debug\net6.0\E02TryCatch.exe
+C:\SQLvjezbe\CSHARP\Console05\E02TryCatch\bin\Debug\net6.0\E02TryCatch.deps.json
+C:\SQLvjezbe\CSHARP\Console05\E02TryCatch\bin\Debug\net6.0\E02TryCatch.runtimeconfig.json
+C:\SQLvjezbe\CSHARP\Console05\E02TryCatch\bin\Debug\net6.0\E02TryCatch.dll
+C:\SQLvjezbe\CSHARP\Console05\E02TryCatch\bin\Debug\net6.0\E02TryCatch.pdb
+C:\SQLvjezbe\CSHARP\Console05\E02TryCatch\obj\Debug\net6.0\E02TryCatch.csproj.AssemblyReference.cache
+C:\SQLvjezbe\CSHARP\Console05\E02TryCatch\obj\Debug\net6.0\E02TryCatch.GeneratedMSBuildEditorConfig.editorconfig
+C:\SQLvjezbe\CSHARP\Console05\E02TryCatch\obj\Debug\net6.0\E02TryCatch.AssemblyInfoInputs.cache
+C:\SQLvjezbe\CSHARP\Console05\E02TryCatch\obj\Debug\net6.0\E02TryCatch.AssemblyInfo.cs
+C:\SQLvjezbe\CSHARP\Console05\E02TryCatch\obj\Debug\net6.0\E02TryCatch.csproj.CoreCompileInputs.cache
+C:\SQLvjezbe\CSHARP\Console05\E02TryCatch\obj\Debug\net6.0\E02TryCatch.dll
+C:\SQLvjezbe\CSHARP\Console05\E02TryCatch\obj\Debug\net6.0\refint\E02TryCatch.dll
+C:\SQLvjezbe\CSHARP\Console05\E02TryCatch\obj\Debug\net6.0\E02TryCatch.pdb
+C:\SQLvjezbe\CSHARP\Console05\E02TryCatch\obj\Debug\net6.0\E02TryCatch.genruntimeconfig.cache
+C:\SQLvjezbe\CSHARP\Console05\E02TryCatch\obj\Debug\net6.0\ref\E02TryCatch.dll
