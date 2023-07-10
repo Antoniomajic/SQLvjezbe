@@ -6,6 +6,7 @@ int stupaca = int.Parse(Console.ReadLine());
 
 int[,] matrica = new int[redaka, stupaca];
 int b = 1; //brojač
+string s;
 
 // prvi red (redaka od iza)
 for (int i = 1; i <= stupaca; i++)
@@ -40,7 +41,7 @@ for (int i = 0; i < redaka; i++)
 Console.WriteLine("****************************2");
 
 
-// treći red (krećemo od matrica[0,1] i idemo sa lijeva na desno)
+//// treći red (krećemo od matrica[0,1] i idemo sa lijeva na desno)
 for (int i = 1; i <= stupaca - 1; i++)
 {
     matrica[0, i] = b++;
@@ -56,7 +57,7 @@ for (int i = 0; i < redaka; i++)
 }
 Console.WriteLine("****************************3");
 
-// 4. idemo od zadnjeg stupca do dolje
+//// 4. idemo od zadnjeg stupca do dolje
 for (int i = 1; i <= redaka - 2; i++)
 {
     matrica[i, stupaca - 1] = b++;
@@ -72,4 +73,6 @@ for (int i = 0; i < redaka; i++)
 }
 Console.WriteLine("****************************4");
 //treba dovršiti
+
+
 

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CiklicnaMatrica", "CiklicnaMatrica\CiklicnaMatrica.csproj", "{9F44519A-CAC7-43FD-AED3-2A2C9E1B7E4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CiklicnaMatrica", "CiklicnaMatrica\CiklicnaMatrica.csproj", "{9F44519A-CAC7-43FD-AED3-2A2C9E1B7E4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CiklicnaMatricaProba", "CiklicnaMatricaProba\CiklicnaMatricaProba.csproj", "{D36AAF82-5B83-4600-A5D3-0783B7CE3DB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9F44519A-CAC7-43FD-AED3-2A2C9E1B7E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F44519A-CAC7-43FD-AED3-2A2C9E1B7E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F44519A-CAC7-43FD-AED3-2A2C9E1B7E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D36AAF82-5B83-4600-A5D3-0783B7CE3DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D36AAF82-5B83-4600-A5D3-0783B7CE3DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D36AAF82-5B83-4600-A5D3-0783B7CE3DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D36AAF82-5B83-4600-A5D3-0783B7CE3DB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

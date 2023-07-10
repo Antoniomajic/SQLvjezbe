@@ -1,0 +1,15 @@
+C:\SQLvjezbe\CSHARP\CiklicnaMatrica\CiklicnaMatricaProba\obj\Debug\net6.0\CiklicnaMatricaProba.csproj.AssemblyReference.cache
+C:\SQLvjezbe\CSHARP\CiklicnaMatrica\CiklicnaMatricaProba\obj\Debug\net6.0\CiklicnaMatricaProba.GeneratedMSBuildEditorConfig.editorconfig
+C:\SQLvjezbe\CSHARP\CiklicnaMatrica\CiklicnaMatricaProba\obj\Debug\net6.0\CiklicnaMatricaProba.AssemblyInfoInputs.cache
+C:\SQLvjezbe\CSHARP\CiklicnaMatrica\CiklicnaMatricaProba\obj\Debug\net6.0\CiklicnaMatricaProba.AssemblyInfo.cs
+C:\SQLvjezbe\CSHARP\CiklicnaMatrica\CiklicnaMatricaProba\obj\Debug\net6.0\CiklicnaMatricaProba.csproj.CoreCompileInputs.cache
+C:\SQLvjezbe\CSHARP\CiklicnaMatrica\CiklicnaMatricaProba\bin\Debug\net6.0\CiklicnaMatricaProba.exe
+C:\SQLvjezbe\CSHARP\CiklicnaMatrica\CiklicnaMatricaProba\bin\Debug\net6.0\CiklicnaMatricaProba.deps.json
+C:\SQLvjezbe\CSHARP\CiklicnaMatrica\CiklicnaMatricaProba\bin\Debug\net6.0\CiklicnaMatricaProba.runtimeconfig.json
+C:\SQLvjezbe\CSHARP\CiklicnaMatrica\CiklicnaMatricaProba\bin\Debug\net6.0\CiklicnaMatricaProba.dll
+C:\SQLvjezbe\CSHARP\CiklicnaMatrica\CiklicnaMatricaProba\bin\Debug\net6.0\CiklicnaMatricaProba.pdb
+C:\SQLvjezbe\CSHARP\CiklicnaMatrica\CiklicnaMatricaProba\obj\Debug\net6.0\CiklicnaMatricaProba.dll
+C:\SQLvjezbe\CSHARP\CiklicnaMatrica\CiklicnaMatricaProba\obj\Debug\net6.0\refint\CiklicnaMatricaProba.dll
+C:\SQLvjezbe\CSHARP\CiklicnaMatrica\CiklicnaMatricaProba\obj\Debug\net6.0\CiklicnaMatricaProba.pdb
+C:\SQLvjezbe\CSHARP\CiklicnaMatrica\CiklicnaMatricaProba\obj\Debug\net6.0\CiklicnaMatricaProba.genruntimeconfig.cache
+C:\SQLvjezbe\CSHARP\CiklicnaMatrica\CiklicnaMatricaProba\obj\Debug\net6.0\ref\CiklicnaMatricaProba.dll
