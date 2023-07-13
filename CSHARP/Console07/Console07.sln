@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E01Nasljedivanje", "E01Nasljedivanje\E01Nasljedivanje.csproj", "{7CED0440-C9E8-46D6-8B3F-B8DF9687CE48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01Nasljedivanje", "E01Nasljedivanje\E01Nasljedivanje.csproj", "{7CED0440-C9E8-46D6-8B3F-B8DF9687CE48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E02ApstraktnaKlasaIMetoda", "ApstraktnaKlasaIMetoda\E02ApstraktnaKlasaIMetoda.csproj", "{76D89678-79B9-417A-8AB4-1C1CA8060218}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polimorfizam", "Polimorfizam\Polimorfizam.csproj", "{018D58EA-98BB-4FD8-81D2-8F076E86DCB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{7CED0440-C9E8-46D6-8B3F-B8DF9687CE48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CED0440-C9E8-46D6-8B3F-B8DF9687CE48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CED0440-C9E8-46D6-8B3F-B8DF9687CE48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76D89678-79B9-417A-8AB4-1C1CA8060218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D89678-79B9-417A-8AB4-1C1CA8060218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D89678-79B9-417A-8AB4-1C1CA8060218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D89678-79B9-417A-8AB4-1C1CA8060218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{018D58EA-98BB-4FD8-81D2-8F076E86DCB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{018D58EA-98BB-4FD8-81D2-8F076E86DCB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{018D58EA-98BB-4FD8-81D2-8F076E86DCB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{018D58EA-98BB-4FD8-81D2-8F076E86DCB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
