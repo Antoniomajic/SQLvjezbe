@@ -1,0 +1,15 @@
+C:\SQLvjezbe\CSHARP\Console07\Polimorfizam\bin\Debug\net6.0\Polimorfizam.exe
+C:\SQLvjezbe\CSHARP\Console07\Polimorfizam\bin\Debug\net6.0\Polimorfizam.deps.json
+C:\SQLvjezbe\CSHARP\Console07\Polimorfizam\bin\Debug\net6.0\Polimorfizam.runtimeconfig.json
+C:\SQLvjezbe\CSHARP\Console07\Polimorfizam\bin\Debug\net6.0\Polimorfizam.dll
+C:\SQLvjezbe\CSHARP\Console07\Polimorfizam\bin\Debug\net6.0\Polimorfizam.pdb
+C:\SQLvjezbe\CSHARP\Console07\Polimorfizam\obj\Debug\net6.0\Polimorfizam.csproj.AssemblyReference.cache
+C:\SQLvjezbe\CSHARP\Console07\Polimorfizam\obj\Debug\net6.0\Polimorfizam.GeneratedMSBuildEditorConfig.editorconfig
+C:\SQLvjezbe\CSHARP\Console07\Polimorfizam\obj\Debug\net6.0\Polimorfizam.AssemblyInfoInputs.cache
+C:\SQLvjezbe\CSHARP\Console07\Polimorfizam\obj\Debug\net6.0\Polimorfizam.AssemblyInfo.cs
+C:\SQLvjezbe\CSHARP\Console07\Polimorfizam\obj\Debug\net6.0\Polimorfizam.csproj.CoreCompileInputs.cache
+C:\SQLvjezbe\CSHARP\Console07\Polimorfizam\obj\Debug\net6.0\Polimorfizam.dll
+C:\SQLvjezbe\CSHARP\Console07\Polimorfizam\obj\Debug\net6.0\refint\Polimorfizam.dll
+C:\SQLvjezbe\CSHARP\Console07\Polimorfizam\obj\Debug\net6.0\Polimorfizam.pdb
+C:\SQLvjezbe\CSHARP\Console07\Polimorfizam\obj\Debug\net6.0\Polimorfizam.genruntimeconfig.cache
+C:\SQLvjezbe\CSHARP\Console07\Polimorfizam\obj\Debug\net6.0\ref\Polimorfizam.dll
