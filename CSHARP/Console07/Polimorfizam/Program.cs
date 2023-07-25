@@ -12,7 +12,7 @@ void pozdraviSve(Osoba[] o)
     foreach (Osoba osoba in o)
     {
         // Ovo je izvedba polimorfizma
-        Console.WriteLine(osoba.Pozdravi());
+        Console.WriteLine(osoba.Pozdravi());        
     }
 }
 
