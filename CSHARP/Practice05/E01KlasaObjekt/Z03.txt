@@ -1,0 +1,2 @@
+﻿Kreirati klasu Grupa sa konstruktorom koji ne prima parametre
+U Program.cs napravi 128 instanci klase Grupa

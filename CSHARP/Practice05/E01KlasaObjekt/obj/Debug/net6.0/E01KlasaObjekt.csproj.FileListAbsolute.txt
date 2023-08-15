@@ -1,0 +1,15 @@
+C:\SQLvjezbe\CSHARP\Practice05\E01KlasaObjekt\bin\Debug\net6.0\E01KlasaObjekt.exe
+C:\SQLvjezbe\CSHARP\Practice05\E01KlasaObjekt\bin\Debug\net6.0\E01KlasaObjekt.deps.json
+C:\SQLvjezbe\CSHARP\Practice05\E01KlasaObjekt\bin\Debug\net6.0\E01KlasaObjekt.runtimeconfig.json
+C:\SQLvjezbe\CSHARP\Practice05\E01KlasaObjekt\bin\Debug\net6.0\E01KlasaObjekt.dll
+C:\SQLvjezbe\CSHARP\Practice05\E01KlasaObjekt\bin\Debug\net6.0\E01KlasaObjekt.pdb
+C:\SQLvjezbe\CSHARP\Practice05\E01KlasaObjekt\obj\Debug\net6.0\E01KlasaObjekt.csproj.AssemblyReference.cache
+C:\SQLvjezbe\CSHARP\Practice05\E01KlasaObjekt\obj\Debug\net6.0\E01KlasaObjekt.GeneratedMSBuildEditorConfig.editorconfig
+C:\SQLvjezbe\CSHARP\Practice05\E01KlasaObjekt\obj\Debug\net6.0\E01KlasaObjekt.AssemblyInfoInputs.cache
+C:\SQLvjezbe\CSHARP\Practice05\E01KlasaObjekt\obj\Debug\net6.0\E01KlasaObjekt.AssemblyInfo.cs
+C:\SQLvjezbe\CSHARP\Practice05\E01KlasaObjekt\obj\Debug\net6.0\E01KlasaObjekt.csproj.CoreCompileInputs.cache
+C:\SQLvjezbe\CSHARP\Practice05\E01KlasaObjekt\obj\Debug\net6.0\E01KlasaObjekt.dll
+C:\SQLvjezbe\CSHARP\Practice05\E01KlasaObjekt\obj\Debug\net6.0\refint\E01KlasaObjekt.dll
+C:\SQLvjezbe\CSHARP\Practice05\E01KlasaObjekt\obj\Debug\net6.0\E01KlasaObjekt.pdb
+C:\SQLvjezbe\CSHARP\Practice05\E01KlasaObjekt\obj\Debug\net6.0\E01KlasaObjekt.genruntimeconfig.cache
+C:\SQLvjezbe\CSHARP\Practice05\E01KlasaObjekt\obj\Debug\net6.0\ref\E01KlasaObjekt.dll
