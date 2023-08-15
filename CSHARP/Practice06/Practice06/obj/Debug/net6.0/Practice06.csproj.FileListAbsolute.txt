@@ -1,0 +1,15 @@
+C:\SQLvjezbe\CSHARP\Practice06\Practice06\bin\Debug\net6.0\Practice06.exe
+C:\SQLvjezbe\CSHARP\Practice06\Practice06\bin\Debug\net6.0\Practice06.deps.json
+C:\SQLvjezbe\CSHARP\Practice06\Practice06\bin\Debug\net6.0\Practice06.runtimeconfig.json
+C:\SQLvjezbe\CSHARP\Practice06\Practice06\bin\Debug\net6.0\Practice06.dll
+C:\SQLvjezbe\CSHARP\Practice06\Practice06\bin\Debug\net6.0\Practice06.pdb
+C:\SQLvjezbe\CSHARP\Practice06\Practice06\obj\Debug\net6.0\Practice06.csproj.AssemblyReference.cache
+C:\SQLvjezbe\CSHARP\Practice06\Practice06\obj\Debug\net6.0\Practice06.GeneratedMSBuildEditorConfig.editorconfig
+C:\SQLvjezbe\CSHARP\Practice06\Practice06\obj\Debug\net6.0\Practice06.AssemblyInfoInputs.cache
+C:\SQLvjezbe\CSHARP\Practice06\Practice06\obj\Debug\net6.0\Practice06.AssemblyInfo.cs
+C:\SQLvjezbe\CSHARP\Practice06\Practice06\obj\Debug\net6.0\Practice06.csproj.CoreCompileInputs.cache
+C:\SQLvjezbe\CSHARP\Practice06\Practice06\obj\Debug\net6.0\Practice06.dll
+C:\SQLvjezbe\CSHARP\Practice06\Practice06\obj\Debug\net6.0\refint\Practice06.dll
+C:\SQLvjezbe\CSHARP\Practice06\Practice06\obj\Debug\net6.0\Practice06.pdb
+C:\SQLvjezbe\CSHARP\Practice06\Practice06\obj\Debug\net6.0\Practice06.genruntimeconfig.cache
+C:\SQLvjezbe\CSHARP\Practice06\Practice06\obj\Debug\net6.0\ref\Practice06.dll
