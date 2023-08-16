@@ -1,0 +1,15 @@
+C:\SQLvjezbe\CSHARP\Practice07\JednakostObjekata\bin\Debug\net6.0\JednakostObjekata.exe
+C:\SQLvjezbe\CSHARP\Practice07\JednakostObjekata\bin\Debug\net6.0\JednakostObjekata.deps.json
+C:\SQLvjezbe\CSHARP\Practice07\JednakostObjekata\bin\Debug\net6.0\JednakostObjekata.runtimeconfig.json
+C:\SQLvjezbe\CSHARP\Practice07\JednakostObjekata\bin\Debug\net6.0\JednakostObjekata.dll
+C:\SQLvjezbe\CSHARP\Practice07\JednakostObjekata\bin\Debug\net6.0\JednakostObjekata.pdb
+C:\SQLvjezbe\CSHARP\Practice07\JednakostObjekata\obj\Debug\net6.0\JednakostObjekata.csproj.AssemblyReference.cache
+C:\SQLvjezbe\CSHARP\Practice07\JednakostObjekata\obj\Debug\net6.0\JednakostObjekata.GeneratedMSBuildEditorConfig.editorconfig
+C:\SQLvjezbe\CSHARP\Practice07\JednakostObjekata\obj\Debug\net6.0\JednakostObjekata.AssemblyInfoInputs.cache
+C:\SQLvjezbe\CSHARP\Practice07\JednakostObjekata\obj\Debug\net6.0\JednakostObjekata.AssemblyInfo.cs
+C:\SQLvjezbe\CSHARP\Practice07\JednakostObjekata\obj\Debug\net6.0\JednakostObjekata.csproj.CoreCompileInputs.cache
+C:\SQLvjezbe\CSHARP\Practice07\JednakostObjekata\obj\Debug\net6.0\JednakostObjekata.dll
+C:\SQLvjezbe\CSHARP\Practice07\JednakostObjekata\obj\Debug\net6.0\refint\JednakostObjekata.dll
+C:\SQLvjezbe\CSHARP\Practice07\JednakostObjekata\obj\Debug\net6.0\JednakostObjekata.pdb
+C:\SQLvjezbe\CSHARP\Practice07\JednakostObjekata\obj\Debug\net6.0\JednakostObjekata.genruntimeconfig.cache
+C:\SQLvjezbe\CSHARP\Practice07\JednakostObjekata\obj\Debug\net6.0\ref\JednakostObjekata.dll

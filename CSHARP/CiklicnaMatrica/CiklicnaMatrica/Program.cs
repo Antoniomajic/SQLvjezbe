@@ -15,6 +15,8 @@ int b = 1; //brojač
 string s;
 
 
+
+
     //1
     for (int i = 1; i <= stupaca; i++)
     {
