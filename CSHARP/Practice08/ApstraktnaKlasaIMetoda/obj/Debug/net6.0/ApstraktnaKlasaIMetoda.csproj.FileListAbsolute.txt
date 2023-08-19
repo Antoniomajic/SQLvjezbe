@@ -1,0 +1,15 @@
+C:\SQLvjezbe\CSHARP\Practice08\ApstraktnaKlasaIMetoda\bin\Debug\net6.0\ApstraktnaKlasaIMetoda.exe
+C:\SQLvjezbe\CSHARP\Practice08\ApstraktnaKlasaIMetoda\bin\Debug\net6.0\ApstraktnaKlasaIMetoda.deps.json
+C:\SQLvjezbe\CSHARP\Practice08\ApstraktnaKlasaIMetoda\bin\Debug\net6.0\ApstraktnaKlasaIMetoda.runtimeconfig.json
+C:\SQLvjezbe\CSHARP\Practice08\ApstraktnaKlasaIMetoda\bin\Debug\net6.0\ApstraktnaKlasaIMetoda.dll
+C:\SQLvjezbe\CSHARP\Practice08\ApstraktnaKlasaIMetoda\bin\Debug\net6.0\ApstraktnaKlasaIMetoda.pdb
+C:\SQLvjezbe\CSHARP\Practice08\ApstraktnaKlasaIMetoda\obj\Debug\net6.0\ApstraktnaKlasaIMetoda.csproj.AssemblyReference.cache
+C:\SQLvjezbe\CSHARP\Practice08\ApstraktnaKlasaIMetoda\obj\Debug\net6.0\ApstraktnaKlasaIMetoda.GeneratedMSBuildEditorConfig.editorconfig
+C:\SQLvjezbe\CSHARP\Practice08\ApstraktnaKlasaIMetoda\obj\Debug\net6.0\ApstraktnaKlasaIMetoda.AssemblyInfoInputs.cache
+C:\SQLvjezbe\CSHARP\Practice08\ApstraktnaKlasaIMetoda\obj\Debug\net6.0\ApstraktnaKlasaIMetoda.AssemblyInfo.cs
+C:\SQLvjezbe\CSHARP\Practice08\ApstraktnaKlasaIMetoda\obj\Debug\net6.0\ApstraktnaKlasaIMetoda.csproj.CoreCompileInputs.cache
+C:\SQLvjezbe\CSHARP\Practice08\ApstraktnaKlasaIMetoda\obj\Debug\net6.0\ApstraktnaKlasaIMetoda.dll
+C:\SQLvjezbe\CSHARP\Practice08\ApstraktnaKlasaIMetoda\obj\Debug\net6.0\refint\ApstraktnaKlasaIMetoda.dll
+C:\SQLvjezbe\CSHARP\Practice08\ApstraktnaKlasaIMetoda\obj\Debug\net6.0\ApstraktnaKlasaIMetoda.pdb
+C:\SQLvjezbe\CSHARP\Practice08\ApstraktnaKlasaIMetoda\obj\Debug\net6.0\ApstraktnaKlasaIMetoda.genruntimeconfig.cache
+C:\SQLvjezbe\CSHARP\Practice08\ApstraktnaKlasaIMetoda\obj\Debug\net6.0\ref\ApstraktnaKlasaIMetoda.dll

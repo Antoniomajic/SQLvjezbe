@@ -1,0 +1,15 @@
+C:\SQLvjezbe\CSHARP\LoveCalculator\LoveCalculator\bin\Debug\net6.0\LoveCalculator.exe
+C:\SQLvjezbe\CSHARP\LoveCalculator\LoveCalculator\bin\Debug\net6.0\LoveCalculator.deps.json
+C:\SQLvjezbe\CSHARP\LoveCalculator\LoveCalculator\bin\Debug\net6.0\LoveCalculator.runtimeconfig.json
+C:\SQLvjezbe\CSHARP\LoveCalculator\LoveCalculator\bin\Debug\net6.0\LoveCalculator.dll
+C:\SQLvjezbe\CSHARP\LoveCalculator\LoveCalculator\bin\Debug\net6.0\LoveCalculator.pdb
+C:\SQLvjezbe\CSHARP\LoveCalculator\LoveCalculator\obj\Debug\net6.0\LoveCalculator.csproj.AssemblyReference.cache
+C:\SQLvjezbe\CSHARP\LoveCalculator\LoveCalculator\obj\Debug\net6.0\LoveCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\SQLvjezbe\CSHARP\LoveCalculator\LoveCalculator\obj\Debug\net6.0\LoveCalculator.AssemblyInfoInputs.cache
+C:\SQLvjezbe\CSHARP\LoveCalculator\LoveCalculator\obj\Debug\net6.0\LoveCalculator.AssemblyInfo.cs
+C:\SQLvjezbe\CSHARP\LoveCalculator\LoveCalculator\obj\Debug\net6.0\LoveCalculator.csproj.CoreCompileInputs.cache
+C:\SQLvjezbe\CSHARP\LoveCalculator\LoveCalculator\obj\Debug\net6.0\LoveCalculator.dll
+C:\SQLvjezbe\CSHARP\LoveCalculator\LoveCalculator\obj\Debug\net6.0\refint\LoveCalculator.dll
+C:\SQLvjezbe\CSHARP\LoveCalculator\LoveCalculator\obj\Debug\net6.0\LoveCalculator.pdb
+C:\SQLvjezbe\CSHARP\LoveCalculator\LoveCalculator\obj\Debug\net6.0\LoveCalculator.genruntimeconfig.cache
+C:\SQLvjezbe\CSHARP\LoveCalculator\LoveCalculator\obj\Debug\net6.0\ref\LoveCalculator.dll
