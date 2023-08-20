@@ -8,13 +8,15 @@ namespace LjetniRadVjezba
 {
     internal class Izbornik
     {
-        private ObradaSmjer ObradaSmjer;
-        private ObradaPolaznik ObradaPolaznik; // deklariram
+        public  ObradaSmjer ObradaSmjer { get; }
+        public ObradaPolaznik ObradaPolaznik { get; } 
+        private ObradaGrupa ObradaGrupa; // deklariram
 
-        public Izbornik() // konstruktor
+        public Izbornik() // konstruktor (njegova zadaća je pripremi potrebne preudvjete za rad ove klase, a konstruira ono što je deklarirano na razini klasi) npr. ObradaSmjera je deklarirana na razini klase a konstruirana u konstruktoru
         {
             ObradaSmjer = new ObradaSmjer();
             ObradaPolaznik = new ObradaPolaznik(); // konstruiram
+            ObradaGrupa = new ObradaGrupa(this);
             PozdravnaPoruka(); //poziv metode
             PrikaziIzbornik(); //poziv metode
         }
@@ -45,7 +47,7 @@ namespace LjetniRadVjezba
                     PrikaziIzbornik();
                     break;
                 case 3:
-                    Console.WriteLine("Rad sa grupama");
+                    ObradaGrupa.PrikaziIzbornik();
                     PrikaziIzbornik();
                     break;
                 case 4:

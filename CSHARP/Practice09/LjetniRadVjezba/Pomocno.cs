@@ -9,6 +9,7 @@ namespace LjetniRadVjezba
 {
     internal class Pomocno
     {
+        public static bool DEV;
 
         public static int UcitajBrojRaspon(string poruka, string greska, int pocetak, int kraj)
         {

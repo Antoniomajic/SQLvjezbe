@@ -14,6 +14,22 @@ namespace LjetniRadVjezba
         public ObradaPolaznik()
         {
             Polaznici = new List<Polaznik>();
+            TestniPodaci();
+        }
+
+        private void TestniPodaci()
+        {
+            Polaznici.Add(new Polaznik()
+            {
+                Ime = "Marija",
+                Prezime = "Zimska"
+            });
+
+            Polaznici.Add(new Polaznik
+            {
+                Ime = "Goran",
+                Prezime = "Jater"
+            });
         }
 
         public void PrikaziIzbornik()
@@ -45,11 +61,12 @@ namespace LjetniRadVjezba
 
         }
 
-        private void PregledPolaznika()
+        public void PregledPolaznika()
         {
+            int b = 1;
             foreach(Polaznik polaznik in Polaznici)
             {
-                Console.WriteLine(polaznik); // ne polaznik.ime itd. pa onda moram override method u Klasi Polaznik
+                Console.WriteLine("\t{0}. {1}",b++,polaznik); // ne polaznik.ime itd. pa onda moram override method u Klasi Polaznik
             }
         }
 
