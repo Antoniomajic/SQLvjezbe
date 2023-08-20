@@ -1,0 +1,15 @@
+C:\SQLvjezbe\CSHARP\Practice09\LjetniRadVjezba\bin\Debug\net6.0\LjetniRadVjezba.exe
+C:\SQLvjezbe\CSHARP\Practice09\LjetniRadVjezba\bin\Debug\net6.0\LjetniRadVjezba.deps.json
+C:\SQLvjezbe\CSHARP\Practice09\LjetniRadVjezba\bin\Debug\net6.0\LjetniRadVjezba.runtimeconfig.json
+C:\SQLvjezbe\CSHARP\Practice09\LjetniRadVjezba\bin\Debug\net6.0\LjetniRadVjezba.dll
+C:\SQLvjezbe\CSHARP\Practice09\LjetniRadVjezba\bin\Debug\net6.0\LjetniRadVjezba.pdb
+C:\SQLvjezbe\CSHARP\Practice09\LjetniRadVjezba\obj\Debug\net6.0\LjetniRadVjezba.csproj.AssemblyReference.cache
+C:\SQLvjezbe\CSHARP\Practice09\LjetniRadVjezba\obj\Debug\net6.0\LjetniRadVjezba.GeneratedMSBuildEditorConfig.editorconfig
+C:\SQLvjezbe\CSHARP\Practice09\LjetniRadVjezba\obj\Debug\net6.0\LjetniRadVjezba.AssemblyInfoInputs.cache
+C:\SQLvjezbe\CSHARP\Practice09\LjetniRadVjezba\obj\Debug\net6.0\LjetniRadVjezba.AssemblyInfo.cs
+C:\SQLvjezbe\CSHARP\Practice09\LjetniRadVjezba\obj\Debug\net6.0\LjetniRadVjezba.csproj.CoreCompileInputs.cache
+C:\SQLvjezbe\CSHARP\Practice09\LjetniRadVjezba\obj\Debug\net6.0\LjetniRadVjezba.dll
+C:\SQLvjezbe\CSHARP\Practice09\LjetniRadVjezba\obj\Debug\net6.0\refint\LjetniRadVjezba.dll
+C:\SQLvjezbe\CSHARP\Practice09\LjetniRadVjezba\obj\Debug\net6.0\LjetniRadVjezba.pdb
+C:\SQLvjezbe\CSHARP\Practice09\LjetniRadVjezba\obj\Debug\net6.0\LjetniRadVjezba.genruntimeconfig.cache
+C:\SQLvjezbe\CSHARP\Practice09\LjetniRadVjezba\obj\Debug\net6.0\ref\LjetniRadVjezba.dll
