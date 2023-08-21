@@ -1,0 +1,15 @@
+C:\SQLvjezbe\FinalProject\ConsoleAppV1.0\MassageParlor\bin\Debug\net6.0\MassageParlor.exe
+C:\SQLvjezbe\FinalProject\ConsoleAppV1.0\MassageParlor\bin\Debug\net6.0\MassageParlor.deps.json
+C:\SQLvjezbe\FinalProject\ConsoleAppV1.0\MassageParlor\bin\Debug\net6.0\MassageParlor.runtimeconfig.json
+C:\SQLvjezbe\FinalProject\ConsoleAppV1.0\MassageParlor\bin\Debug\net6.0\MassageParlor.dll
+C:\SQLvjezbe\FinalProject\ConsoleAppV1.0\MassageParlor\bin\Debug\net6.0\MassageParlor.pdb
+C:\SQLvjezbe\FinalProject\ConsoleAppV1.0\MassageParlor\obj\Debug\net6.0\MassageParlor.csproj.AssemblyReference.cache
+C:\SQLvjezbe\FinalProject\ConsoleAppV1.0\MassageParlor\obj\Debug\net6.0\MassageParlor.GeneratedMSBuildEditorConfig.editorconfig
+C:\SQLvjezbe\FinalProject\ConsoleAppV1.0\MassageParlor\obj\Debug\net6.0\MassageParlor.AssemblyInfoInputs.cache
+C:\SQLvjezbe\FinalProject\ConsoleAppV1.0\MassageParlor\obj\Debug\net6.0\MassageParlor.AssemblyInfo.cs
+C:\SQLvjezbe\FinalProject\ConsoleAppV1.0\MassageParlor\obj\Debug\net6.0\MassageParlor.csproj.CoreCompileInputs.cache
+C:\SQLvjezbe\FinalProject\ConsoleAppV1.0\MassageParlor\obj\Debug\net6.0\MassageParlor.dll
+C:\SQLvjezbe\FinalProject\ConsoleAppV1.0\MassageParlor\obj\Debug\net6.0\refint\MassageParlor.dll
+C:\SQLvjezbe\FinalProject\ConsoleAppV1.0\MassageParlor\obj\Debug\net6.0\MassageParlor.pdb
+C:\SQLvjezbe\FinalProject\ConsoleAppV1.0\MassageParlor\obj\Debug\net6.0\MassageParlor.genruntimeconfig.cache
+C:\SQLvjezbe\FinalProject\ConsoleAppV1.0\MassageParlor\obj\Debug\net6.0\ref\MassageParlor.dll
