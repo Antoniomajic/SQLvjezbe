@@ -82,7 +82,7 @@ namespace MassageParlor
             am.Quantity = Supplementary.LoadWholeNumber("Input quantity", "Quantity number must be whole positive number!");
             am.Massage = AddMassage();
             am.Appointment = AddAppointment();
-
+            AppointmentMassages.Add(am);
 
         }
 

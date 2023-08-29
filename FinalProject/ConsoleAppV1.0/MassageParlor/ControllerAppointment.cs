@@ -89,6 +89,7 @@ namespace MassageParlor
             a.DateAndTime = Supplementary.LoadDate("Input date of the appointment in the following format: dd.mm.yyyy.", "Error");
             Console.WriteLine("Current customers: {0}", a.Customer.FirstName + a.Customer.LastName);
             a.Customer = AddCustomer();
+            
         }
 
         public void CreateNewAppointment()
@@ -97,6 +98,7 @@ namespace MassageParlor
             a.ID = Supplementary.LoadWholeNumber("Input ID of appointment: ", "Input has to be whole positive number!");
             a.DateAndTime = Supplementary.LoadDate("Input date of the appointment in the following format: dd.mm.yyyy.", "Error");
             a.Customer = AddCustomer();
+            Appointments.Add(a);
         }
 
 
@@ -122,14 +124,8 @@ namespace MassageParlor
 
         private void TestData()
         {
-            
-            
+
         }
-        
-            
-
-        
-
         
     }
 }

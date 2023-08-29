@@ -1,5 +1,4 @@
-﻿using System.ComponentModel.Design;
-
+﻿
 int redaka, stupaca;
 
 Console.WriteLine("Welcome to the program!");
@@ -15,58 +14,49 @@ Console.WriteLine("*********************************");
 int[,] matrica = new int[redaka, stupaca];
 int b = 1; //brojač
 string s;
+int a = 0;
 
 
 
-while(b< stupaca * redaka)
+while(b <= redaka * stupaca)
 {
-    for (int i = 1; i <= stupaca; i++)
+    //1
+    for (int i = a + 1; i <= stupaca - a; i++)
     {
-        if (b <= redaka * stupaca)
-            matrica[redaka - 1, stupaca - i] = b++;
-        else break;
-
+        matrica[redaka - a - 1, stupaca - i] = b++;
     }
 
 
-    for (int i = redaka - 2; i >= 0; i--)
+    //2
+    for (int i = redaka - a - 2; i >= a; i--)
     {
-        if (b <= redaka * stupaca)
-            matrica[i, 0] = b++;
-        else break;
-
+        matrica[i, a] = b++;
     }
 
 
-
-    for (int i = 1; i <= stupaca - 1; i++)
+    //3
+    for (int i = a + 1; i <= stupaca - a - 1; i++)
     {
-        if (b <= redaka * stupaca)
-            matrica[0, i] = b++;
-        else break;
+        matrica[a, i] = b++;
+    }
+
+    //4
+    for (int i = a + 1; i <= redaka - a - 2; i++)
+    {
+        matrica[i, stupaca - a - 1] = b++;
 
     }
 
-    for (int i = 1; i <= redaka - 2; i++)
+    
+    a++;
+}
+// tablica
+for (int i = 0; i < redaka; i++)
+{
+    for (int j = 0; j < stupaca; j++)
     {
-        if (b <= redaka * stupaca)
-            matrica[i, stupaca - 1] = b++;
-        else break;
-
-
+        s = "    " + matrica[i, j];
+        Console.Write(s[^4..]);
     }
-
-
-
-
-    for (int i = 0; i < redaka; i++)
-    {
-        for (int j = 0; j < stupaca; j++)
-        {
-            s = "    " + matrica[i, j];
-            Console.Write(s[^4..]);
-        }
-        Console.WriteLine();
-    }
-
+    Console.WriteLine();
 }

@@ -89,6 +89,7 @@ namespace MassageParlor
             m.Description = Supplementary.LoadString("Describe the massage: ", "Error");
             m.Duration = Supplementary.LoadWholeNumber("How long does the massage last (in minutes)?: ", "Type in whole number!");
             m.Price = Supplementary.LoadDecimalNumber("Input the price: ", "Price must be in decimal format example: 10.99");
+            Massages.Add(m);
         }
 
         public void ShowMassages()

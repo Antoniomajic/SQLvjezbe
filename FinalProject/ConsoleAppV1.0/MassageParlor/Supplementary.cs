@@ -18,7 +18,7 @@ namespace MassageParlor
             while (true)
             {
                 int n;
-                Console.WriteLine(message);
+                Console.Write(message);
                 try
                 {
                     n = int.Parse(Console.ReadLine());
