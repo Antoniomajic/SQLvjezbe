@@ -16,13 +16,6 @@ string s;
 int a = 0;
 
 
-/* b je brojač, to jest "broj" koji se svakim korakom uvećava (svaka "pozicija" u tablici, ako je tablica npr. 2x2 onda imamo četiri "polja"
- * s tim da je svako slijedeće uvećano za 1 
- * 
- * int a u svakoj petlji ima ulogu da uđe u slijedeći "krug" nakon što b "dođe" do posljednje fiksne pozicije (na četvrtoj petlji)
- * na početku ostajemo u prvom krugu jer je a=0, a onda se u slijedećoj interaciji a povećava na 1 pa 2... itd.
-*/ 
-
 
 while (b <= redaka * stupaca)
 {
@@ -53,11 +46,9 @@ while (b <= redaka * stupaca)
 
     }
 
-    
-    a++; // OVO JE KLJUČNO JER SE SVAKI PUT KAD ODRADI PETLJE OD 1-4 VRATI UVEĆAN ZA JEDAN!!!
-         // I STAJE ONDA KADA je b manji od zbroja redaka i stupaca
-}
 
+    a++;
+}
 // tablica
 for (int i = 0; i < redaka; i++)
 {
@@ -68,8 +59,3 @@ for (int i = 0; i < redaka; i++)
     }
     Console.WriteLine();
 }
-
-
-
-
-
