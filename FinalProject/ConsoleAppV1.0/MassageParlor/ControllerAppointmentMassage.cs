@@ -17,6 +17,11 @@ namespace MassageParlor
             AppointmentMassages = new List<AppointmentMassage>();
         }
 
+        public ControllerAppointmentMassage(Menu menu) : this()
+        {
+            this.Menu = menu;
+        }
+
         public void ShowMenu()
         {
             Console.WriteLine();
@@ -51,6 +56,9 @@ namespace MassageParlor
                         DeleteAppMass();
                     }
                     ShowMenu();
+                    break;
+                case 5:
+                    Console.WriteLine("Finish working with appointments");
                     break;
             }
 

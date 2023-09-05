@@ -13,7 +13,7 @@ namespace MassageParlor
         public ControllerAppointment ControllerAppointment;
         public ControllerMassage ControllerMassage { get; }
         public ControllerAppointmentMassage ControllerAppointmentMassage { get; }
-        public ControllerAppointmentMassage AppointmentMassage { get; }
+        
 
         
 
@@ -22,7 +22,7 @@ namespace MassageParlor
             ControllerCustomer = new ControllerCustomer();
             ControllerAppointment = new ControllerAppointment(this);
             ControllerMassage = new ControllerMassage();
-            ControllerAppointmentMassage = new ControllerAppointmentMassage();
+            ControllerAppointmentMassage = new ControllerAppointmentMassage(this);
             
             HelloMessage();
             ShowMenu();
