@@ -37,7 +37,7 @@ namespace MassageParlor
 
 
         private void ShowMenu()
-        {
+        {           
             Console.WriteLine("**********************************");
             Console.WriteLine("             Main menu            ");
             Console.WriteLine("**********************************");
@@ -46,8 +46,9 @@ namespace MassageParlor
             Console.WriteLine("          3. Massage              ");
             Console.WriteLine("          4. App-Massage          ");
             Console.WriteLine("          5. Exit the program     ");
+            Console.WriteLine();
 
-            switch(Supplementary.LoadNumberRange("Select menu option: ", "Please select option number (1-5)!",1,5))
+            switch (Supplementary.LoadNumberRange("Select menu option: ", "Please select option number (1-5)!",1,5))
             {
                 case 1:
                     ControllerCustomer.ShowMenu();
@@ -66,6 +67,7 @@ namespace MassageParlor
                     ShowMenu();
                     break;
                 case 5:
+                    Console.WriteLine();
                     Console.WriteLine("Thank you for using this app! Goodbye!\n**************************************");                    
                     break;
             }

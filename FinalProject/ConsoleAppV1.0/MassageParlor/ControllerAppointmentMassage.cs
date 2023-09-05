@@ -19,6 +19,7 @@ namespace MassageParlor
 
         public void ShowMenu()
         {
+            Console.WriteLine();
             Console.WriteLine("********** AppMass menu *********");
             Console.WriteLine("1. Show AppMass");
             Console.WriteLine("2. Create new AppMass");
@@ -57,6 +58,7 @@ namespace MassageParlor
 
         private void DeleteAppMass()
         {
+            Console.WriteLine();
             ShowAppMass();
             int index = Supplementary.LoadNumberRange("Select number of appointment_massage to delete: ", "You did not choose existing appointment_massage!", 1, AppointmentMassages.Count());
             AppointmentMassages.RemoveAt(index-1);
@@ -64,6 +66,7 @@ namespace MassageParlor
 
         private void EditAppMass()
         {
+            Console.WriteLine();
             ShowAppMass();
             int number = Supplementary.LoadNumberRange("Select number of AppMass to change: ", "Please select correct ordinal number!", 1, AppointmentMassages.Count());
             var am = AppointmentMassages[number-1];
@@ -77,6 +80,7 @@ namespace MassageParlor
 
         private void CreateNewAppMass()
         {
+            Console.WriteLine();
             var am = new AppointmentMassage();
             am.ID = Supplementary.LoadWholeNumber("Input ID of appointment_massage: ", "Input has to be whole positive number!");
             am.Quantity = Supplementary.LoadWholeNumber("Input quantity", "Quantity number must be whole positive number!");
@@ -88,6 +92,7 @@ namespace MassageParlor
 
         private void ShowAppMass()
         {
+            Console.WriteLine();
             Console.WriteLine("**********************************");
             Console.WriteLine("********** AppMass list **********");
             int n = 1;
@@ -100,6 +105,7 @@ namespace MassageParlor
 
         private Massage AddMassage()
         {
+            Console.WriteLine();
             Menu.ControllerMassage.ShowMassages();
             int index = Supplementary.LoadNumberRange("Select ordinal number of massage: ", "You did not select customer number!", 1, Menu.ControllerMassage.Massages.Count());
             return Menu.ControllerMassage.Massages[index-1];
@@ -107,6 +113,7 @@ namespace MassageParlor
 
         private Appointment AddAppointment()
         {
+            Console.WriteLine();
             Menu.ControllerAppointment.ShowAppointments();
             int index = Supplementary.LoadNumberRange("Select ordinal number of appointments: ", "You did not select appointment number!", 1, Menu.ControllerAppointment.Appointments.Count());
             return Menu.ControllerAppointment.Appointments[index-1];

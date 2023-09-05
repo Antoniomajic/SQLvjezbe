@@ -21,6 +21,7 @@ namespace MassageParlor
 
         public void ShowMenu()
         {
+            Console.WriteLine();
             Console.WriteLine("********** Massage menu *********");
             Console.WriteLine("1. Show massages");
             Console.WriteLine("2. Create new massage");
@@ -64,6 +65,7 @@ namespace MassageParlor
 
         private void DeleteMassage()
         {
+            Console.WriteLine();
             ShowMassages();
             int number = Supplementary.LoadNumberRange("Select number of Massage to delete: ", "Please select correct ordinal number!", 1, Massages.Count());
             Massages.RemoveAt(number-1);
@@ -71,6 +73,7 @@ namespace MassageParlor
 
         private void EditMassage()
         {
+            Console.WriteLine();
             ShowMassages();
             int number = Supplementary.LoadNumberRange("Select number of Massage to change: ", "Please select correct ordinal number!", 1, Massages.Count());
             var m = Massages[number - 1];
@@ -83,8 +86,9 @@ namespace MassageParlor
 
         public void CreateNewMassage()
         {
+            Console.WriteLine();
             var m=new Massage();
-            m.ID = Supplementary.LoadWholeNumber("Add massage ID", "ID has to be positive whole number");
+            m.ID = Supplementary.LoadWholeNumber("Add massage ID: ", "ID has to be positive whole number");
             m.Name = Supplementary.LoadString("Write the name of the massage: ", "Error");
             m.Description = Supplementary.LoadString("Describe the massage: ", "Error");
             m.Duration = Supplementary.LoadWholeNumber("How long does the massage last (in minutes)?: ", "Type in whole number!");
@@ -94,6 +98,7 @@ namespace MassageParlor
 
         public void ShowMassages()
         {
+            Console.WriteLine();
             Console.WriteLine("**********************************");
             Console.WriteLine("********** Massage list **********");
             int n = 1;

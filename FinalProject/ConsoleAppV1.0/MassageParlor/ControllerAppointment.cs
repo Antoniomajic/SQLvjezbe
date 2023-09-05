@@ -11,6 +11,7 @@ namespace MassageParlor
     {
 
         public List<Appointment> Appointments { get; }
+        
 
 
         private Menu Menu;
@@ -34,6 +35,7 @@ namespace MassageParlor
 
         public void ShowMenu() // Appointment Menu
         {
+            Console.WriteLine();
             Console.WriteLine("******** Appointment menu ********");
             Console.WriteLine("1. Show appointments");
             Console.WriteLine("2. Create new appointment");
@@ -49,6 +51,7 @@ namespace MassageParlor
                     break;
                 case 2:
                     CreateNewAppointment();
+                   
                     ShowMenu();
                     break;
                 case 3:
@@ -75,6 +78,7 @@ namespace MassageParlor
 
         private void DeletingAppointment()
         {
+            Console.WriteLine();
             ShowAppointments();
             int index = Supplementary.LoadNumberRange("Choose ordinal number of appointment to delete: ", "Not good choice!", 1, Appointments.Count());
             Appointments.RemoveAt(index - 1);
@@ -82,6 +86,7 @@ namespace MassageParlor
 
         private void EditAppointment()
         {
+            Console.WriteLine();
             ShowAppointments();
             int index = Supplementary.LoadNumberRange("Select ordinal number of appointment: ", "You did not enter existing appointment!", 1, Appointments.Count());
             var a = Appointments[index - 1];
@@ -94,9 +99,10 @@ namespace MassageParlor
 
         public void CreateNewAppointment()
         {
+            Console.WriteLine();
             var a = new Appointment();
             a.ID = Supplementary.LoadWholeNumber("Input ID of appointment: ", "Input has to be whole positive number!");
-            a.DateAndTime = Supplementary.LoadDate("Input date of the appointment in the following format: dd.mm.yyyy.", "Error");
+            a.DateAndTime = Supplementary.LoadDate("Input date of the appointment in the following format: dd.mm.yyyy.: ", "Error");
             a.Customer = AddCustomer();
             Appointments.Add(a);
         }
@@ -105,6 +111,7 @@ namespace MassageParlor
 
         public void ShowAppointments()
         {
+            Console.WriteLine();
             Console.WriteLine("**********************************");
             Console.WriteLine("******** Appointments list *******");
             int n = 1;
@@ -117,6 +124,7 @@ namespace MassageParlor
 
         private Customer AddCustomer()
         {
+            Console.WriteLine();
             Menu.ControllerCustomer.ShowCustomers();
             int index = Supplementary.LoadNumberRange("Select ordinal number of customer: ", "You did not select customer number!", 1, Menu.ControllerCustomer.Customers.Count());
             return Menu.ControllerCustomer.Customers[index - 1];

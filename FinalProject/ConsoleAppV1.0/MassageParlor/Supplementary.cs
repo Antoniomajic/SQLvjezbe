@@ -40,7 +40,7 @@ namespace MassageParlor
             int n;
             while(true)
             {
-                Console.WriteLine(message);
+                Console.Write(message);
                 try
                 {
                     n = int.Parse(Console.ReadLine());
@@ -62,7 +62,7 @@ namespace MassageParlor
             string s = "";
             while(true)
             {
-                Console.WriteLine(message);
+                Console.Write(message);
                 s = Console.ReadLine();
                 if (s != null && s.Trim().Length > 0)
                 {
@@ -79,7 +79,7 @@ namespace MassageParlor
             {
                 try
                 {
-                    Console.WriteLine(v1);
+                    Console.Write(v1);
                     return DateTime.Parse(Console.ReadLine());
                 }
                 catch (Exception ex)

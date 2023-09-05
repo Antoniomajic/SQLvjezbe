@@ -25,6 +25,7 @@ namespace MassageParlor
 
         public void ShowMenu() // Customer Menu
         {
+            Console.WriteLine();
             Console.WriteLine("********** Customer menu *********");
             Console.WriteLine("1. Show customers");
             Console.WriteLine("2. Create new customer");
@@ -66,6 +67,7 @@ namespace MassageParlor
 
         private void DeleteCustomer()
         {
+            Console.WriteLine();
             ShowCustomers();
             int number = Supplementary.LoadNumberRange("Select number of Customer to delete: ", "Please select correct ordinal number!", 1, Customers.Count());
             Customers.RemoveAt(number-1);
@@ -74,6 +76,7 @@ namespace MassageParlor
 
         private void EditCustomer()
         {
+            Console.WriteLine();
             ShowCustomers();
             int number = Supplementary.LoadNumberRange("Select number of Customer to change: ", "Please select correct ordinal number!", 1, Customers.Count());
             var c = Customers[number-1];
@@ -86,8 +89,9 @@ namespace MassageParlor
 
         public void CreateNewCustomer()
         {
+            Console.WriteLine();
             var c = new Customer();
-            c.ID = Supplementary.LoadWholeNumber("Add customer ID", "ID has to be positive whole number");
+            c.ID = Supplementary.LoadWholeNumber("Add customer ID: ", "ID has to be positive whole number!");
             c.FirstName = Supplementary.LoadString("Write the first name: ", "You didn't write the first name!");
             c.LastName = Supplementary.LoadString("Write the last name: ", "You didn't write the last name!");
             c.Contact = Supplementary.LoadString("Write the contact (e-mail/telephone): ", "Obligatory input!");
@@ -96,6 +100,7 @@ namespace MassageParlor
 
         public void ShowCustomers()
         {
+            Console.WriteLine();
             Console.WriteLine("**********************************");
             Console.WriteLine("********** Customer list *********");
             int n = 1;
