@@ -1,0 +1,15 @@
+C:\SQLvjezbe\CSHARP\Console09\02Delegati\bin\Debug\net6.0\02Delegati.exe
+C:\SQLvjezbe\CSHARP\Console09\02Delegati\bin\Debug\net6.0\02Delegati.deps.json
+C:\SQLvjezbe\CSHARP\Console09\02Delegati\bin\Debug\net6.0\02Delegati.runtimeconfig.json
+C:\SQLvjezbe\CSHARP\Console09\02Delegati\bin\Debug\net6.0\02Delegati.dll
+C:\SQLvjezbe\CSHARP\Console09\02Delegati\bin\Debug\net6.0\02Delegati.pdb
+C:\SQLvjezbe\CSHARP\Console09\02Delegati\obj\Debug\net6.0\02Delegati.csproj.AssemblyReference.cache
+C:\SQLvjezbe\CSHARP\Console09\02Delegati\obj\Debug\net6.0\02Delegati.GeneratedMSBuildEditorConfig.editorconfig
+C:\SQLvjezbe\CSHARP\Console09\02Delegati\obj\Debug\net6.0\02Delegati.AssemblyInfoInputs.cache
+C:\SQLvjezbe\CSHARP\Console09\02Delegati\obj\Debug\net6.0\02Delegati.AssemblyInfo.cs
+C:\SQLvjezbe\CSHARP\Console09\02Delegati\obj\Debug\net6.0\02Delegati.csproj.CoreCompileInputs.cache
+C:\SQLvjezbe\CSHARP\Console09\02Delegati\obj\Debug\net6.0\02Delegati.dll
+C:\SQLvjezbe\CSHARP\Console09\02Delegati\obj\Debug\net6.0\refint\02Delegati.dll
+C:\SQLvjezbe\CSHARP\Console09\02Delegati\obj\Debug\net6.0\02Delegati.pdb
+C:\SQLvjezbe\CSHARP\Console09\02Delegati\obj\Debug\net6.0\02Delegati.genruntimeconfig.cache
+C:\SQLvjezbe\CSHARP\Console09\02Delegati\obj\Debug\net6.0\ref\02Delegati.dll
