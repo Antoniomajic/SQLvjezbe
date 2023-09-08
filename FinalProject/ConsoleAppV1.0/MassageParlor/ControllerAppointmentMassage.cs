@@ -91,7 +91,7 @@ namespace MassageParlor
             Console.WriteLine();
             var am = new AppointmentMassage();
             am.ID = Supplementary.LoadWholeNumber("Input ID of appointment_massage: ", "Input has to be whole positive number!");
-            am.Quantity = Supplementary.LoadWholeNumber("Input quantity", "Quantity number must be whole positive number!");
+            am.Quantity = Supplementary.LoadWholeNumber("Input quantity: ", "Quantity number must be whole positive number!");
             am.Massage = AddMassage();
             am.Appointment = AddAppointment();
             AppointmentMassages.Add(am);
@@ -115,7 +115,7 @@ namespace MassageParlor
         {
             Console.WriteLine();
             Menu.ControllerMassage.ShowMassages();
-            int index = Supplementary.LoadNumberRange("Select ordinal number of massage: ", "You did not select customer number!", 1, Menu.ControllerMassage.Massages.Count());
+            int index = Supplementary.LoadNumberRange("Select ordinal number of massage: ", "You did not select massage number!", 1, Menu.ControllerMassage.Massages.Count());
             return Menu.ControllerMassage.Massages[index-1];
         }
 

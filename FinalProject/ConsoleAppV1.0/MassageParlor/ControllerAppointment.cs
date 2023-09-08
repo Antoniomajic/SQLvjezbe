@@ -91,7 +91,7 @@ namespace MassageParlor
             int index = Supplementary.LoadNumberRange("Select ordinal number of appointment: ", "You did not enter existing appointment!", 1, Appointments.Count());
             var a = Appointments[index - 1];
             a.ID = Supplementary.LoadWholeNumber("Input ID of appointment (" + a.ID + "): ", "Error");
-            a.DateAndTime = Supplementary.LoadDate("Input date of the appointment in the following format: dd.mm.yyyy.", "Error");
+            a.DateAndTime = Supplementary.LoadDate("Input date of the appointment in the following format > dd.mm.yyyy. 00:00:00: ", "Error");
             Console.WriteLine("Current customers: {0}", a.Customer.FirstName + a.Customer.LastName);
             a.Customer = AddCustomer();
             
