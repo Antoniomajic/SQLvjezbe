@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace HelloWorld.Controllers
 {
@@ -60,20 +61,53 @@ namespace HelloWorld.Controllers
 
         // DZ 
         // Kreirati rutu /HelloWorld/ciklicna
-        // koja prima dva parametra (x i y) a vraća cikličnu matricu kao dvodimenzionalni niz brojeva
+        // koja prima dva parametra (x i y) a vraća cikličnu matricu kao dvodimenzionalni niz brojeva      
+
 
         [HttpGet]
-        [Route("Ciklična")]
-        public int[,] CiklicnaMatrica(int redaka, int stupaca)
+        [Route("{sifra:int}")]
+        public string PozdravRuta(int sifra) 
         {
-          
+            return "Hello " + sifra;
+        }
+
+
+        [HttpGet]
+        [Route("{sifra:int}/{kategorija}")] // ako mu ne kažem ništa poslije kategorija onda je string (jer HTTP = text)
+        public string PozdravRuta2(int sifra, string kategorija)        
+        {
+            return "Hello " + sifra + " " + kategorija;
+        }
+
+        [HttpPost] 
+        public string DodavanjeNovog(string ime)
+        {
+            return "Dodao " + ime;
+        }
+
+        [HttpPut]  
+        public string Promjena(int sifra, string naziv)
+        {
+            return "Na šifri " + sifra + "postavljam " + naziv;
+        }
+
+        [HttpDelete]
+        public bool Obrisao(int sifra)
+        {
+            return true;
+        }
+
+        [HttpGet]
+        [Route("matrica")]
+        public IActionResult matrica(int redaka, int stupaca)
+        {
+            
+            // moj kod koji to nadopuni
 
             int[,] matrica = new int[redaka, stupaca];
             int b = 1; //brojač
             string s;
             int a = 0;
-
-
 
             while (b <= redaka * stupaca)
             {
@@ -107,20 +141,15 @@ namespace HelloWorld.Controllers
 
                 a++;
             }
-            // tablica
-            for (int i = 0; i < redaka; i++)
-            {
-                for (int j = 0; j < stupaca; j++)
-                {
-                    s = "    " + matrica[i, j];
-                    Console.Write(s[^4..]);
-                }
-                Console.WriteLine();
-            }
 
 
-            return matrica;
+            return new JsonResult(JsonConvert.SerializeObject(matrica));
         }
+
+
+
+
+
 
 
 
