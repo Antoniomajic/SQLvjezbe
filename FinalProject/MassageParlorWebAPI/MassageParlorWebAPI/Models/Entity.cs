@@ -1,7 +1,10 @@
-﻿namespace MassageParlorWebAPI.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace MassageParlorWebAPI.Models
 {
     public class Entity
     {
-        public int IDs { get; set; }
+        [Key] 
+        public int ID { get; set; }
     }
 }

@@ -1,9 +1,12 @@
-﻿namespace MassageParlorWebAPI.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace MassageParlorWebAPI.Models
 {
     public class Customer : Entity
     {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string Contact { get; set; }
+        [Required]
+        public string? FirstName { get; set; }
+        public string? LastName { get; set; }
+        public string? Contact { get; set; }
     }
 }
