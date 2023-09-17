@@ -63,4 +63,5 @@ insert into appointment_massage (appointment,massage,quantity)
 			('2','3','1'),
 			('3','2','1');
 
+
 			
