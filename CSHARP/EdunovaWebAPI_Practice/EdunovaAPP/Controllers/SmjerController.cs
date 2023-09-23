@@ -100,40 +100,33 @@ namespace EdunovaAPP.Controllers
 
         [HttpDelete]
         [Route("{sifra:int}")]
+        [Produces("application/json")]
         public IActionResult Delete(int sifra)
         {
-            if(sifra<=0)
+            if (sifra <= 0)
             {
-                return BadRequest();    
+                return BadRequest();
+            }
+
+            var smjerBaza = _context.Smjer.Find(sifra);
+            if (smjerBaza == null)
+            {
+                return BadRequest();
             }
 
             try
             {
-                var smjerBaza = _context.Smjer.Find(sifra);
-                if(smjerBaza == null)
-                {
-                    return BadRequest();
-                }
-
                 _context.Smjer.Remove(smjerBaza);
                 _context.SaveChanges();
 
                 return new JsonResult("{\"poruka\":\"Obrisano\"}");
+
             }
             catch (Exception ex)
             {
-                try
-                {
-                        SqlException sqle=(SqlException)ex;
-                        return StatusCode(StatusCodes.Status503ServiceUnavailable, sqle);
-                }
-                catch (Exception e)
-                {
-                                        
-                }
 
+                return new JsonResult("{\"poruka\":\"Ne može se obrisati\"}");
 
-                return StatusCode(StatusCodes.Status503ServiceUnavailable, ex);
             }
         }
     }
