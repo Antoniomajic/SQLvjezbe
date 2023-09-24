@@ -5,6 +5,9 @@ using Microsoft.Data.SqlClient;
 
 namespace EdunovaAPP.Controllers
 {
+    /// <summary>
+    /// Namijenjeno za CRUD operacije na entitetu smjer u bazi
+    /// </summary>
     [ApiController]
     [Route("api/v1/[controller]")]
     public class SmjerController : ControllerBase
@@ -16,6 +19,19 @@ namespace EdunovaAPP.Controllers
             _context = context;
         }
 
+        /// <summary>
+        /// Dohvaća sve smjerove iz baze
+        /// </summary>
+        /// <remarks>
+        /// Primjer upita:
+        ///
+        ///    GET api/v1/Smjer
+        ///
+        /// </remarks>
+        /// <returns>Smjerovi u bazi</returns>
+        /// <response code="200">Sve je u redu</response>
+        /// <response code="400">Zahtjev nije valjan (BadRequest)</response> 
+        /// <response code="503">Na azure treba dodati IP u firewall</response> 
         [HttpGet]
         public IActionResult Get()
         {
@@ -39,6 +55,20 @@ namespace EdunovaAPP.Controllers
             } 
         }
 
+        /// <summary>
+        /// Dodaje smjer u bazu
+        /// </summary>
+        /// <remarks>
+        /// Primjer upita:
+        ///
+        ///    POST api/v1/Smjer
+        ///    {naziv:"",trajanje:100}
+        ///
+        /// </remarks>
+        /// <returns>Kreirani smjer u bazi s svim podacima</returns>
+        /// <response code="200">Sve je u redu</response>
+        /// <response code="400">Zahtjev nije valjan (BadRequest)</response> 
+        /// <response code="503">Na azure treba dodati IP u firewall</response> 
         [HttpPost]
         public IActionResult Post(Smjer smjer)
         {
@@ -59,6 +89,30 @@ namespace EdunovaAPP.Controllers
             }
         }
 
+        /// <summary>
+        /// Mijenja podatke postojećeg smjera u bazi
+        /// </summary>
+        /// <remarks>
+        /// Primjer upita:
+        ///
+        ///    PUT api/v1/smjer/1
+        ///
+        /// {
+        ///  "sifra": 0,
+        ///  "naziv": "Novi naziv",
+        ///  "trajanje": 120,
+        ///  "cijena": 890.22,
+        ///  "upisnina": 0,
+        ///  "verificiran": true
+        /// }
+        ///
+        /// </remarks>
+        /// <param name="sifra">Šifra smjera koji se mijenja</param>  
+        /// <returns>Svi poslani podaci od smjera</returns>
+        /// <response code="200">Sve je u redu</response>
+        /// <response code="204">Nema u bazi smjera kojeg želimo promijeniti</response>
+        /// <response code="415">Nismo poslali JSON</response> 
+        /// <response code="503">Na azure treba dodati IP u firewall</response> 
         [HttpPut]
         [Route("{sifra:int}")]
         public IActionResult Put(int sifra, Smjer smjer)
@@ -98,6 +152,21 @@ namespace EdunovaAPP.Controllers
             
         }
 
+        /// <summary>
+        /// Briše smjer iz baze
+        /// </summary>
+        /// <remarks>
+        /// Primjer upita:
+        ///
+        ///    DELETE api/v1/smjer/1
+        ///    
+        /// </remarks>
+        /// <param name="sifra">Šifra smjera koji se briše</param>  
+        /// <returns>Odgovor da li je obrisano ili ne</returns>
+        /// <response code="200">Sve je u redu</response>
+        /// <response code="204">Nema u bazi smjera kojeg želimo obrisati</response>
+        /// <response code="415">Nismo poslali JSON</response> 
+        /// <response code="503">Na azure treba dodati IP u firewall</response> 
         [HttpDelete]
         [Route("{sifra:int}")]
         [Produces("application/json")]
