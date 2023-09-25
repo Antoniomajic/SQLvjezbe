@@ -4,9 +4,20 @@
         <name>EdunovaAPP</name>
     </assembly>
     <members>
+        <member name="T:EdunovaAPP.Controllers.GrupaController">
+            <summary>
+            Namijenjeno za CRUD operacije nad Grupom
+            </summary>
+        </member>
+        <member name="M:EdunovaAPP.Controllers.GrupaController.#ctor(EdunovaAPP.Data.EdunovaContext,Microsoft.Extensions.Logging.ILogger{EdunovaAPP.Controllers.GrupaController})">
+            <summary>
+            Konstruktor
+            </summary>
+            <param name="context"></param>
+        </member>
         <member name="T:EdunovaAPP.Controllers.SmjerController">
             <summary>
-            Namijenjeno za CRUD operacije na entitetom smjer u bazi
+            Namijenjeno za CRUD operacije na entitetu smjer u bazi
             </summary>
         </member>
         <member name="M:EdunovaAPP.Controllers.SmjerController.Get">

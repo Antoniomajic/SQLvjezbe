@@ -10,6 +10,7 @@ namespace EdunovaAPP.Controllers
     /// </summary>
     [ApiController]
     [Route("api/v1/[controller]")]
+
     public class SmjerController : ControllerBase
     {
         private readonly EdunovaContext _context;
