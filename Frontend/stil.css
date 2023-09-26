@@ -1,0 +1,8 @@
+body{
+    background-color: #7e161b;
+    color: white /* postoji i opcija !important ali se ne preporučava*/;
+}
+
+.bitno{
+    font-size: 2rem;
+}
