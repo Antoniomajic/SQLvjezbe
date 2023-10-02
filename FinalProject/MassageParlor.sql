@@ -1,4 +1,4 @@
-use master;
+ï»¿use master;
 drop database if exists MassageParlor;
 go
 create database MassageParlor collate Croatian_CI_AS;
@@ -41,15 +41,15 @@ alter table appointment add foreign key (customer) references customer (id);
 
 insert into customer (firstname,lastname,contact)
 	values 
-			('Domagoj','Krizmaniæ','0972254785'),
+			('Domagoj','KrizmaniÃ¦','0972254785'),
 			('Josipa','Lisica','031/105-454'),
-			('Tihomir','Šimunkoviæ','tihomir.simunkovic@gmail.com');
+			('Tihomir','Å imunkoviÄ‡','tihomir.simunkovic@gmail.com');
 
 insert into massage (name,description,duration,price)
 	values
-			('Masaa ruku','Dubinska masaa obje ruke, masaa dlanova i šake, nadlaktice i podlaktice','10','5'),
-			('Masaa lica','Dubinska masaa lica sa eteriènim uljima','20','7'),
-			('Masaa leğa','Dubinska masaa leğa ukljuèujuæi vrat i ramena','30','10');
+			('MasaÅ¾a ruku','Dubinska masaÅ¾a obje ruke, masaÅ¾a dlanova i Å¡ake, nadlaktice i podlaktice','10','5'),
+			('MasaÅ¾a lica','Dubinska masaÅ¾a lica sa eteriÄnim uljima','20','7'),
+			('MasaÅ¾a leÄ‘a','Dubinska masaÅ¾a leÄ‘a ukljuÄujuÄ‡i vrat i ramena','30','10');
 
 insert into appointment (dateAndTime,customer)
 	values
@@ -62,6 +62,3 @@ insert into appointment_massage (appointment,massage,quantity)
 			('1','1','2'),
 			('2','3','1'),
 			('3','2','1');
-
-
-			
