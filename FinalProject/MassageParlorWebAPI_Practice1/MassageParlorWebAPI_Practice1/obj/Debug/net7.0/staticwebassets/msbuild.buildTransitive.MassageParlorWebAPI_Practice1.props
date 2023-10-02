@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\MassageParlorWebAPI_Practice1.props" />
-</Project>
