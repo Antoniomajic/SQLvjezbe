@@ -1,6 +1,7 @@
 ﻿using MassageParlor.Data;
 using MassageParlor.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 
 namespace MassageParlor.Controllers
 {
@@ -34,7 +35,24 @@ namespace MassageParlor.Controllers
         [HttpGet]
         public IActionResult Get()
         {           
-            return new JsonResult(_context.Customer.ToList());
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            try
+            {
+                var customers = _context.Customer.ToList();
+                if(customers == null || customers.Count == 0 )
+                {
+                    return new EmptyResult();
+                }
+                return new JsonResult(_context.Customer.ToList());
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status503ServiceUnavailable, ex.Message); 
+            }
         }
 
         /// <summary>
@@ -54,23 +72,90 @@ namespace MassageParlor.Controllers
         [HttpPost]
         public IActionResult Post(Customer customer)
         {
-            _context.Customer.Add(customer);
-            _context.SaveChanges();
-            return Created("api/v1/Customer", customer);
+            if(!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            try
+            {
+                _context.Customer.Add(customer);
+                _context.SaveChanges();
+                return StatusCode(StatusCodes.Status201Created, customer);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status503ServiceUnavailable, ex.Message);
+            }
         }
 
         [HttpPut]
         [Route("{id:int}")]
         public IActionResult Put(int id, Customer customer)
         {
-            return StatusCode(StatusCodes.Status200OK, customer);
+            if(id <= 0 || customer == null)
+            {
+                return BadRequest();
+            }
+
+            try
+            {
+                var customerBase = _context.Customer.Find(id);
+                if(customerBase == null)
+                {
+                    return BadRequest();
+                }
+                customerBase.FirstName = customer.FirstName;
+                customerBase.LastName = customer.LastName;
+                customerBase.Contact = customer.Contact;
+
+                _context.Customer.Update(customerBase);
+                _context.SaveChanges();
+
+                return StatusCode(StatusCodes.Status200OK, customerBase);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status503ServiceUnavailable, ex.Message);
+            }
+
         }
 
         [HttpDelete]
         [Route("{id:int}")]
         public IActionResult Delete(int id)
         {
-            return StatusCode(StatusCodes.Status200OK, "{\"deleted\":true}");
+            if(id <= 0)
+            {
+                return BadRequest();
+            }
+            try
+            {
+                var customerBase = _context.Customer.Find(id);
+                if (customerBase == null)
+                {
+                    return BadRequest();
+                }
+
+                _context.Customer.Remove(customerBase);
+                _context.SaveChanges();
+
+                return new JsonResult("\"message\":\"Deleted\"}");
+            }
+            catch (Exception ex)
+            {
+                try
+                {
+                    SqlException sqle = (SqlException)ex;
+                    return StatusCode(StatusCodes.Status503ServiceUnavailable, sqle);
+                }
+                catch (Exception e)
+                {
+                }
+                return StatusCode(StatusCodes.Status503ServiceUnavailable, ex);
+            }
+
+            
         }
     }
 }
