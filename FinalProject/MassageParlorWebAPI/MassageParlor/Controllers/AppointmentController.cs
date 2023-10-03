@@ -173,5 +173,137 @@ namespace MassageParlor.Controllers
             }
         }
 
+
+        [HttpGet]
+        [Route("{id:int}/massages")]
+        public IActionResult GetMassages(int id)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+
+            if (id <= 0)
+            {
+                return BadRequest();
+            }
+
+            try
+            {
+                var appointment = _context.Appointment.Include(a => a.Massages).FirstOrDefault(a => a.Id == id);
+                if (appointment == null)
+                {
+                    return BadRequest();
+                }
+
+                if (appointment.Massages == null || appointment.Massages.Count == 0)
+                {
+                    return new EmptyResult();
+                }
+
+                List<MassageDTO> giveback = new();
+                appointment.Massages.ForEach(m =>
+                {
+                    giveback.Add(new MassageDTO()
+                    {
+                        Id = m.Id,
+                        Name = m.Name,
+                        Description = m.Description,
+                        Duration = m.Duration,
+                        Price = m.Price
+                    });
+                });
+                return Ok(giveback);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status503ServiceUnavailable, ex);
+            }
+        }
+
+
+        [HttpPost]
+        [Route("{id:int}/add/{massageID:int}")]
+        public IActionResult AddMassage(int id, int massageID)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+
+            if(id <= 0 || massageID <= 0)
+            {
+                return BadRequest();
+            }
+
+            try
+            {
+                var appointment = _context.Appointment.Include(a => a.Massages).FirstOrDefault(a => a.Id == id);
+                if(appointment == null)
+                {
+                    return BadRequest();
+                }
+
+                var massage = _context.Massage.Find(massageID);
+                if(massage == null)
+                {
+                    return BadRequest();
+                }
+
+                appointment.Massages.Add(massage);
+
+                _context.Appointment.Update(appointment);
+                _context.SaveChanges();
+
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status503ServiceUnavailable, ex.Message);
+            }
+        }
+
+
+        [HttpDelete]
+        [Route("{id:int}/delete/{massageID:int}")]
+        public IActionResult DeleteMassage(int id, int massageID)
+        {
+            if(!ModelState.IsValid) 
+            { 
+                return BadRequest(); 
+            }
+
+            if(id <= 0 || massageID <= 0)
+            {
+                return BadRequest();
+            }
+
+            try
+            {
+                var appointment = _context.Appointment.Include(a => a.Massages).FirstOrDefault(a => a.Id == id);
+                if (appointment == null)
+                {
+                    return BadRequest();
+                }
+
+                var massage = _context.Massage.Find(massageID);
+                if (massage == null)
+                {
+                    return BadRequest();
+                }
+
+                appointment.Massages.Remove(massage);
+
+                _context.Appointment.Update(appointment);
+                _context.SaveChanges();
+
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status503ServiceUnavailable, ex.Message);
+            }
+        }
+
     }
 }

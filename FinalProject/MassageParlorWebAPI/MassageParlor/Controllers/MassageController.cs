@@ -2,6 +2,7 @@
 using MassageParlor.Models;
 using MassageParlor.Models.DTO;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace MassageParlor.Controllers
 {
