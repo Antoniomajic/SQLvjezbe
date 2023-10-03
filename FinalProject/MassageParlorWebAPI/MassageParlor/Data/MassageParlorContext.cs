@@ -12,6 +12,7 @@ namespace MassageParlor.Data
         public DbSet<Customer> Customer { get; set; }
         public DbSet<Massage> Massage { get; set; }
         public DbSet<Appointment> Appointment { get; set; }
+        
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

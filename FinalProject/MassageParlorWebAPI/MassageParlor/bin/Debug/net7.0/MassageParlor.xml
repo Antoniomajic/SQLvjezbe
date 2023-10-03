@@ -4,6 +4,17 @@
         <name>MassageParlor</name>
     </assembly>
     <members>
+        <member name="T:MassageParlor.Controllers.AppointmentController">
+            <summary>
+            Intended for CRUD operations on entity Appointment in database
+            </summary>
+        </member>
+        <member name="M:MassageParlor.Controllers.AppointmentController.#ctor(MassageParlor.Data.MassageParlorContext,Microsoft.Extensions.Logging.ILogger{MassageParlor.Controllers.AppointmentController})">
+            <summary>
+            Constructor
+            </summary>
+            <param name ="context"></param>        
+        </member>
         <member name="T:MassageParlor.Controllers.CustomerController">
             <summary>
             Intended for CRUD operations on entity Customer in database
