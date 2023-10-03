@@ -39,5 +39,119 @@
             <response code="400">Request is not valid (BadRequest)</response> 
             <response code="503">Add IP in firewall on azure</response> 
         </member>
+        <member name="M:MassageParlor.Controllers.CustomerController.Put(System.Int32,MassageParlor.Models.Customer)">
+            <summary>
+            Changes data of existing Customer in database
+            </summary>
+            <remarks>
+            Query example:
+                PUT api/v1/Customer/1
+            {
+             "id": 0,
+             "firstName": "string",
+             "lastName": "string",
+             "contact": "string"
+            }
+            </remarks>
+            <param name="id">ID of customer that is being edited</param>
+            <param name="customer">Name of customer that is being edited</param>
+            <returns>All sent data of customer</returns>
+            <response code="200">Everything is OK</response>
+            <response code="204">Customer doesn't exist in database</response>
+            <response code="415">No JSON</response> 
+            <response code="503">Add IP in firewall on azure</response> 
+        </member>
+        <member name="M:MassageParlor.Controllers.CustomerController.Delete(System.Int32)">
+             <summary>
+             Delete Customer from database
+             </summary>
+             <remarks>
+             Query example:
+            
+                DELETE api/v1/customer/1
+                
+             </remarks>
+             <param name="id">ID of customer that is being deleted</param>  
+             <returns>Response if customer was deleted or not</returns>
+             <response code="200">Everything is OK</response>
+             <response code="204">Customer doesn't exist in database</response>
+             <response code="415">No JSON</response> 
+             <response code="503">Add IP in firewall on azure</response> 
+        </member>
+        <member name="T:MassageParlor.Controllers.MassageController">
+            <summary>
+            Intended for CRUD operations on entity Massage in database
+            </summary>
+        </member>
+        <member name="M:MassageParlor.Controllers.MassageController.Get">
+            <summary>
+            Gets(pulls) all massages from database 
+            </summary>
+            <remarks>
+            Example query:
+            
+                GET api/v1/Massage
+            </remarks>
+            <returns>Massage in database</returns>
+            <response code="200">Everything is OK</response>
+            <response code="400">Request is not valid (BadRequest)</response>
+            <response code="503">Add IP in firewall on azure</response>       
+        </member>
+        <member name="M:MassageParlor.Controllers.MassageController.Post(MassageParlor.Models.DTO.MassageDTO)">
+            <summary>
+            Adds massages in database
+            </summary>
+            <remarks>
+            Query example:
+            
+                POST api/v1/Massage
+                {name:"name",description:"foot massage"}
+                
+            </remarks>
+            <returns>Created massage in database with all information</returns>
+            <response code="200">Everything is OK</response>
+            <response code="400">Request is not valid (BadRequest)</response> 
+            <response code="503">Add IP in firewall on azure</response> 
+        </member>
+        <member name="M:MassageParlor.Controllers.MassageController.Put(System.Int32,MassageParlor.Models.DTO.MassageDTO)">
+            <summary>
+            Changes data of existing massage in database
+            </summary>
+            <remarks>
+            Query example:
+                PUT api/v1/Massage/1
+            {
+             "id": 0,
+             "Name": "string",
+             "Description": "string",
+             "Duration": "int",
+             "Price": "decimal"
+            }
+            </remarks>
+            <param name="id">ID of massage that is being edited</param>
+            <param name="customer">Name of massage that is being edited</param>
+            <returns>All sent data of massage</returns>
+            <response code="200">Everything is OK</response>
+            <response code="204">Massage doesn't exist in database</response>
+            <response code="415">No JSON</response> 
+            <response code="503">Add IP in firewall on azure</response> 
+        </member>
+        <member name="M:MassageParlor.Controllers.MassageController.Delete(System.Int32)">
+             <summary>
+             Delete massage from database
+             </summary>
+             <remarks>
+             Query example:
+            
+                DELETE api/v1/massage/1
+                
+             </remarks>
+             <param name="id">ID of massage that is being deleted</param>  
+             <returns>Response if massage was deleted or not</returns>
+             <response code="200">Everything is OK</response>
+             <response code="204">Massage doesn't exist in database</response>
+             <response code="415">No JSON</response> 
+             <response code="503">Add IP in firewall on azure</response> 
+        </member>
     </members>
 </doc>

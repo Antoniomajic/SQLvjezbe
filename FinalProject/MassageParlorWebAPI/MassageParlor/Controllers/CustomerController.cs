@@ -89,6 +89,27 @@ namespace MassageParlor.Controllers
             }
         }
 
+
+        /// <summary>
+        /// Changes data of existing Customer in database
+        /// </summary>
+        /// <remarks>
+        /// Query example:
+        ///     PUT api/v1/Customer/1
+        /// {
+        ///  "id": 0,
+        ///  "firstName": "string",
+        ///  "lastName": "string",
+        ///  "contact": "string"
+        /// }
+        /// </remarks>
+        /// <param name="id">ID of customer that is being edited</param>
+        /// <param name="customer">Name of customer that is being edited</param>
+        /// <returns>All sent data of customer</returns>
+        /// <response code="200">Everything is OK</response>
+        /// <response code="204">Customer doesn't exist in database</response>
+        /// <response code="415">No JSON</response> 
+        /// <response code="503">Add IP in firewall on azure</response> 
         [HttpPut]
         [Route("{id:int}")]
         public IActionResult Put(int id, Customer customer)
@@ -121,8 +142,24 @@ namespace MassageParlor.Controllers
 
         }
 
+        /// <summary>
+        /// Delete Customer from database
+        /// </summary>
+        /// <remarks>
+        /// Query example:
+        ///
+        ///    DELETE api/v1/customer/1
+        ///    
+        /// </remarks>
+        /// <param name="id">ID of customer that is being deleted</param>  
+        /// <returns>Response if customer was deleted or not</returns>
+        /// <response code="200">Everything is OK</response>
+        /// <response code="204">Customer doesn't exist in database</response>
+        /// <response code="415">No JSON</response> 
+        /// <response code="503">Add IP in firewall on azure</response> 
         [HttpDelete]
         [Route("{id:int}")]
+        [Produces("application/json")]            
         public IActionResult Delete(int id)
         {
             if(id <= 0)
@@ -144,15 +181,7 @@ namespace MassageParlor.Controllers
             }
             catch (Exception ex)
             {
-                try
-                {
-                    SqlException sqle = (SqlException)ex;
-                    return StatusCode(StatusCodes.Status503ServiceUnavailable, sqle);
-                }
-                catch (Exception e)
-                {
-                }
-                return StatusCode(StatusCodes.Status503ServiceUnavailable, ex);
+                return new JsonResult("{\"message\":\"Can't delete\"}");
             }
 
             
