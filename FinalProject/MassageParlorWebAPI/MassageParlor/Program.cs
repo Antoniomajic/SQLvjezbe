@@ -37,8 +37,8 @@ builder.Services.AddDbContext<MassageParlorContext>(o => o.UseSqlServer(builder.
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
+//if (app.Environment.IsDevelopment())
+//{
     app.UseSwagger(options =>
     {
         options.SerializeAsV2 = true;
@@ -47,10 +47,14 @@ if (app.Environment.IsDevelopment())
     {
         options.ConfigObject.AdditionalItems.Add("requestSnippetsEnabled", true);
     });
-}
+//}
 
 app.UseHttpsRedirection();
 
 app.MapControllers();
+app.UseStaticFiles();
+app.UseDefaultFiles();
+app.UseDeveloperExceptionPage();
+app.MapFallbackToFile("index.html");
 
 app.Run();

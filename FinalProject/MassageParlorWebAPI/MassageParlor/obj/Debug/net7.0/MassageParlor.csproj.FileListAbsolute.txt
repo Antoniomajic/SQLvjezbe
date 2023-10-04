@@ -72,3 +72,4 @@ C:\SQLvjezbe\FinalProject\MassageParlorWebAPI\MassageParlor\bin\Debug\net7.0\run
 C:\SQLvjezbe\FinalProject\MassageParlorWebAPI\MassageParlor\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\SQLvjezbe\FinalProject\MassageParlorWebAPI\MassageParlor\bin\Debug\net7.0\MassageParlor.xml
 C:\SQLvjezbe\FinalProject\MassageParlorWebAPI\MassageParlor\obj\Debug\net7.0\MassageParlor.xml
+C:\SQLvjezbe\FinalProject\MassageParlorWebAPI\MassageParlor\bin\Debug\net7.0\MassageParlor.staticwebassets.runtime.json
