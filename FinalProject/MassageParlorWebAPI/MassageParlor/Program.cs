@@ -32,6 +32,13 @@ builder.Services.AddSwaggerGen(sgo =>
     sgo.IncludeXmlComments(xmlPath);
 });
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("CorsPolicy",
+        builder =>
+        builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+});
+
 builder.Services.AddDbContext<MassageParlorContext>(o => o.UseSqlServer(builder.Configuration.GetConnectionString(name: "MassageParlorContext")));
 
 var app = builder.Build();
@@ -49,6 +56,8 @@ var app = builder.Build();
     });
 //}
 
+
+
 app.UseHttpsRedirection();
 
 app.MapControllers();
@@ -56,5 +65,5 @@ app.UseStaticFiles();
 app.UseDefaultFiles();
 app.UseDeveloperExceptionPage();
 app.MapFallbackToFile("index.html");
-
+app.UseCors("CorsPolicy");
 app.Run();

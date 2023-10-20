@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.MassageParlor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.MassageParlor.props",
+      "PackagePath": "build\\MassageParlor.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.MassageParlor.props",
+      "PackagePath": "buildMultiTargeting\\MassageParlor.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.MassageParlor.props",
+      "PackagePath": "buildTransitive\\MassageParlor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

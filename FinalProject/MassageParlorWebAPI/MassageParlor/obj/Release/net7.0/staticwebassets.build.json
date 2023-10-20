@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "7OZZq8h9lP+g0y697PqihqfXyl9CF8PKs1v94VXHbnw=",
+  "Source": "MassageParlor",
+  "BasePath": "_content/MassageParlor",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MassageParlor\\wwwroot",
+      "Source": "MassageParlor",
+      "ContentRoot": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\",
+      "BasePath": "_content/MassageParlor",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\index.html",
+      "SourceId": "MassageParlor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\",
+      "BasePath": "_content/MassageParlor",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
