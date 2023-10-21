@@ -12,20 +12,21 @@ $.ajax('https://localhost:7169/api/v1/Customer',   // request url
     }
 });
 
-$('#add').click();(function(){
+$('#add').on("click",function(){
 
-    let customer = {firstName: $('#firstName').val(), lastName: $('lastName').val()};
+    let customer = {firstName: $('#firstName').val(), lastName: $('#lastName').val()};
 
     $.ajax('https://localhost:7169/api/v1/Customer', {
         type: 'POST',  // http method
         dataType: 'json',
         contentType: 'application/json',
-        data: { firstName: $('#firstName').val(), lastName: $('lastName').val() },  // data to submit
+        data: JSON.stringify(customer),  // data to submit
         success: function (data, status, xhr) {
-            $('#data').append('<li>' + $('#firstName').val() + " " + $('lastName').val() + '</li>');
+            $('#data').append('<li>' + $('#firstName').val() + " " + $('#lastName').val() + '</li>');
         },
         error: function (jqXhr, textStatus, errorMessage) {
-                alert(errorMessage);
+                //alert(errorMessage);
+                console.log(errorMessage);
         }
     });
 
