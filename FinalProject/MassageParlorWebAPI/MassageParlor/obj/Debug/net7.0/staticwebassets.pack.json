@@ -1,8 +1,148 @@
 {
   "Files": [
     {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\asset-manifest.json",
+      "PackagePath": "staticwebassets\\asset-manifest.json"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
       "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\logo192.png",
+      "PackagePath": "staticwebassets\\logo192.png"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\logo512.png",
+      "PackagePath": "staticwebassets\\logo512.png"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\manifest.json",
+      "PackagePath": "staticwebassets\\manifest.json"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\robots.txt",
+      "PackagePath": "staticwebassets\\robots.txt"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\service-worker.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\service-worker.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\service-worker.js.LICENSE.txt"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\service-worker.js.map",
+      "PackagePath": "staticwebassets\\service-worker.js.map"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\static\\asset-manifest.json",
+      "PackagePath": "staticwebassets\\static\\asset-manifest.json"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\static\\css\\main.073c9b0a.css",
+      "PackagePath": "staticwebassets\\static\\css\\main.073c9b0a.css"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\static\\css\\main.073c9b0a.css.map",
+      "PackagePath": "staticwebassets\\static\\css\\main.073c9b0a.css.map"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\static\\favicon.ico",
+      "PackagePath": "staticwebassets\\static\\favicon.ico"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\static\\index.html",
+      "PackagePath": "staticwebassets\\static\\index.html"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\static\\js\\787.071a2d9e.chunk.js",
+      "PackagePath": "staticwebassets\\static\\js\\787.071a2d9e.chunk.js"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\static\\js\\787.071a2d9e.chunk.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\787.071a2d9e.chunk.js.map"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\static\\js\\main.7abdb72a.js",
+      "PackagePath": "staticwebassets\\static\\js\\main.7abdb72a.js"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\static\\js\\main.7abdb72a.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\static\\js\\main.7abdb72a.js.LICENSE.txt"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\static\\js\\main.7abdb72a.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\main.7abdb72a.js.map"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\static\\logo192.png",
+      "PackagePath": "staticwebassets\\static\\logo192.png"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\static\\logo512.png",
+      "PackagePath": "staticwebassets\\static\\logo512.png"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\static\\manifest.json",
+      "PackagePath": "staticwebassets\\static\\manifest.json"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\static\\media\\logo.103b5fa18196d5665a7e12318285c916.svg",
+      "PackagePath": "staticwebassets\\static\\media\\logo.103b5fa18196d5665a7e12318285c916.svg"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\static\\robots.txt",
+      "PackagePath": "staticwebassets\\static\\robots.txt"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\static\\service-worker.js",
+      "PackagePath": "staticwebassets\\static\\service-worker.js"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\static\\service-worker.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\static\\service-worker.js.LICENSE.txt"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\static\\service-worker.js.map",
+      "PackagePath": "staticwebassets\\static\\service-worker.js.map"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\static\\static\\css\\main.073c9b0a.css",
+      "PackagePath": "staticwebassets\\static\\static\\css\\main.073c9b0a.css"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\static\\static\\css\\main.073c9b0a.css.map",
+      "PackagePath": "staticwebassets\\static\\static\\css\\main.073c9b0a.css.map"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\static\\static\\js\\787.071a2d9e.chunk.js",
+      "PackagePath": "staticwebassets\\static\\static\\js\\787.071a2d9e.chunk.js"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\static\\static\\js\\787.071a2d9e.chunk.js.map",
+      "PackagePath": "staticwebassets\\static\\static\\js\\787.071a2d9e.chunk.js.map"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\static\\static\\js\\main.7abdb72a.js",
+      "PackagePath": "staticwebassets\\static\\static\\js\\main.7abdb72a.js"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\static\\static\\js\\main.7abdb72a.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\static\\static\\js\\main.7abdb72a.js.LICENSE.txt"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\static\\static\\js\\main.7abdb72a.js.map",
+      "PackagePath": "staticwebassets\\static\\static\\js\\main.7abdb72a.js.map"
+    },
+    {
+      "Id": "C:\\SQLvjezbe\\FinalProject\\MassageParlorWebAPI\\MassageParlor\\wwwroot\\static\\static\\media\\logo.103b5fa18196d5665a7e12318285c916.svg",
+      "PackagePath": "staticwebassets\\static\\static\\media\\logo.103b5fa18196d5665a7e12318285c916.svg"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.MassageParlor.Microsoft.AspNetCore.StaticWebAssets.props",

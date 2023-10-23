@@ -1,26 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import MainMenu from './components/mainmenu.component';
+import Home from './components/home.component';
+import Dashboard from './components/dashboard.component';
+import Customers from './components/customer/customers.component';
 
-function App() {
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello <code>src/App.js</code> Edunova.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <MainMenu />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/dashboard' element={<Dashboard />} />
+        <Route path='/customers' element={<Customers />} />
+      </Routes>
+
+    </Router>
   );
 }
 
-export default App;
+
