@@ -55,6 +55,32 @@ namespace MassageParlor.Controllers
             }
         }
 
+
+        [HttpGet]
+        [Route("{id:int}")]
+        public IActionResult GetBySifra(int id)
+        {
+            if(id <= 0)
+            {
+                return BadRequest(ModelState);
+            }
+
+            try
+            {
+                var s = _context.Customer.Find(id);
+
+                if (s == null)
+                {
+                    return StatusCode(StatusCodes.Status204NoContent, s);
+                }
+                return new JsonResult(s);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status503ServiceUnavailable, ex.Message);
+            }
+        }
+
         /// <summary>
         /// Adds customer in database
         /// </summary>
